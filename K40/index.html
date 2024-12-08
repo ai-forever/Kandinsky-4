@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+    content="Text-to-video generation model Kandinsky Video 1.1 that demonstrates high-quality dynamics, appearance, and text alignment.">
+  <meta name="keywords" content="Text-to-Video, Kandinsky Video, Kandinsky Video 1.1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kandinsky Video 1.1</title>
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/video-camera.png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+
+<body>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Kandinsky Video 1.1</h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://ai-forever.github.io/kandinsky-video/">Vladimir Arkhipkin</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://ai-forever.github.io/kandinsky-video/">Zein Shaheen</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://ai-forever.github.io/kandinsky-video/">Viacheslav Vasilev</a><sup>1,2</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://ai-forever.github.io/kandinsky-video/">Elizaveta Dakhova</a><sup>3</sup>,
+              </span>
+              <br>
+              <span class="author-block">
+                <a href="https://ai-forever.github.io/kandinsky-video/">Andrey Kuznetsov</a><sup>1,3</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://ai-forever.github.io/kandinsky-video/">Denis Dimitrov</a><sup>1,3</sup>
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>Sber AI&nbsp;&nbsp;&nbsp;</span>
+              <span class="author-block"><sup>2</sup>MIPT&nbsp;&nbsp;&nbsp;</span>
+              <span class="author-block"><sup>3</sup>AIRI</span>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/pdf/2311.13073.pdf"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <!-- Arxiv Link. -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2311.13073" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                <!-- Code Link. -->
+                <span class="link-block">
+                  <a href="https://github.com/ai-forever/KandinskyVideo"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero is-small">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <div class="content has-text-justified">
+          <div class="container">
+            <table class="center">
+              <tbody>
+                <tr<td>
+                  </td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  </tr>
+                  <tr>
+                    <td><video controls="controls" autoplay="autoplay">
+                        <source src="./static/videos/mp4/ladybug.mp4" type="video/mp4" /></video></td>
+                    <td><video controls="controls" autoplay="autoplay">
+                        <source src="./static/videos/mp4/tea.mp4" type="video/mp4" /></video></td>
+                    <td><video controls="controls" autoplay="autoplay">
+                        <source src="./static/videos/mp4/ice_сream.mp4" type="video/mp4" /></video></td>
+                    <td><video controls="controls" autoplay="autoplay">
+                        <source src="./static/videos/mp4/fire.mp4" type="video/mp4" /></video></td>
+                    <td><video controls="controls" autoplay="autoplay">
+                        <source src="./static/videos/mp4/abstraction.mp4" type="video/mp4" /></video></td>
+                  </tr>
+                  <tr>
+                    <td width="20%" style="text-align:center;">Ladybug flies off the mushroom</td>
+                    <td width="20%" style="text-align:center;">Boiling water makes a noise and splashes from a teapot into a cup of tea</td>
+                    <td width="20%" style="text-align:center;">The ice cream drips quickly, the ice cream melts</td>
+                    <td width="20%" style="text-align:center;">The fire is burning, professional video</td>
+                    <td width="20%" style="text-align:center;">Abstraction, smooth movements</td>
+                  </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FusionFrames is a text-to-video generation model consisting of two main stages - keyframe generation and interpolation.  -->
+  <!-- Our approach for temporal conditioning allows us to generate videos with high-quality appearance, smoothness and dynamics. -->
+  <!--  -->
+
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Introduction</h2>
+          <div class="content has-text-justified">
+            <p>
+              Our previous model <a href="https://github.com/ai-forever/KandinskyVideo">Kandinsky Video 1.0</a>, divides
+              the video generation process into two stages: initially generating keyframes at a
+              low FPS and then creating interpolated frames between these keyframes to increase the FPS. In Kandinsky
+              Video 1.1, we further break
+              down the keyframe generation into two extra steps: first, generating the initial frame of the video from
+              the textual prompt using
+              Text to Image Kandinsky 3.0, and then generating the subsequent keyframes based on the textual prompt and
+              the previously generated
+              first frame. This approach ensures more consistent content across the frames and significantly enhances
+              the overall video quality.
+              Furthermore, the approach allows animating any input image as an additional feature.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">Overall Pipeline</h2>
+          <div class="content has-text-justified">
+            <img src="./static/images/pipeline.png" class="interpolation-image"
+              alt="Interpolate start reference image." />
+            <p>
+              The overall pipeline include following steps.
+              <ol>
+                <li>The generation of the first frame using textual prompt (Kandinsky 3.1).</li>
+                <li>The generation of keyframes using the textual prompt and the previously
+                  generated first frame as input. Additional inputs include motion score and noise
+                  augmentation level.</li>
+                <li>The generation of interpolated frames. Interpolation model in the new version
+                  uses additional temporal self-attention layers compared to the previous version
+                  which improves the visual quality of the interpolated frames.</li>
+                <li>Decode the generated video using Sber MoVQ-GAN.We inserted temporal layers in
+                  the decoder and fine tuned the decoder to ensure more consistent details among
+                  the generated frames.</li>
+              </ol>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">Motion score conditioning and Noise Augmentation</h2>
+          <div class="content has-text-justified">
+            <img src="./static/images/motion_score_noise_aug.gif" class="interpolation-image"
+              alt="Interpolate start reference image." />
+            <p>
+              Kandinsky Video 1.1 uses motion score as a condition to control dynamics in the video.
+              Motion score is calculated using the optical flow model (RAFT) while training.
+              During inference, we can manipulate motion score input to the model to obtain different dynamics in the
+              generated video.
+
+              Frames in video datasets suffer from quality issues like blur compared to the high quality images in image
+              generation datasets.
+              In training, we use the first frame in the video as a condition to generate the rest of keyframes.
+              During inference, we generate the first frame using text to image model (Kandinsky 3.1).
+              This leads to training-inference mismatch and to mitigate this issue we employ noise augmentation.
+              Too solve the problem, during training, we add different levels of noise to the first frame before passing
+              it as a condition.
+              In inference, after generating the first frame, we add a small amount of random noise to this frame
+              and we pass the level of noise as an additional condition to the network.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <section class="section" id="Acknowledgment">
+        <div class="container is-max-desktop content">
+          <h2 class="title">Acknowledgment</h2>
+          The authors express great gratitude to Igor Pavlov, Anastasia Lysenko and Sergey Markov for their contribution in collecting and processing video data,
+          thanks to which this study became possible and Andrei Filatov for building the site.
+        </div>
+      </section>
+  </section>
+
+  <section class="hero videos">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">More results</h2>
+        <div class="content has-text-justified">
+
+          <div class="container">
+            <table class="center">
+              <tbody>
+                <tr<td>
+                  </td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  </tr>
+                  <tr>
+                    <td><video controls="controls" autoplay="autoplay">
+                        <source src="./static/videos/mp4/rabbit.mp4" type="video/mp4" /></video></td>
+                    <td><video controls="controls" autoplay="autoplay">
+                        <source src="./static/videos/mp4/bird.mp4" type="video/mp4" /></video></td>
+                    <td><video controls="controls" autoplay="autoplay">
+                        <source src="./static/videos/mp4/boat.mp4" type="video/mp4" /></video></td>
+                    <td><video controls="controls" autoplay="autoplay">
+                        <source src="./static/videos/mp4/cake.mp4" type="video/mp4" /></video></td>
+                    <td><video controls="controls" autoplay="autoplay">
+                        <source src="./static/videos/mp4/flowers_dark.mp4" type="video/mp4" /></video></td>
+                  </tr>
+                  <tr>
+                    <td width="20%" style="text-align:center;">Conv1dAttn1dBlocks</td>
+                    <td width="20%" style="text-align:center;">Conv1dAttn3dBlocks</td>
+                    <td width="20%" style="text-align:center;">Conv3dAttn1dBlocks</td>
+                    <td width="20%" style="text-align:center;">Conv1dAttn1dLayers</td>
+                    <td width="20%" style="text-align:center;">Conv1dAttn1dLayers</td>
+                  </tr>
+                  <tr>
+                    <td><video controls="controls" autoplay="autoplay">
+                        <source src="./static/videos/mp4/space.mp4" type="video/mp4" /></video></td>
+                    <td><video controls="controls" autoplay="autoplay">
+                        <source src="./static/videos/mp4/tortile.mp4" type="video/mp4" /></video></td>
+                    <td><video controls="controls" autoplay="autoplay">
+                        <source src="./static/videos/mp4/cat.mp4" type="video/mp4" /></video></td>
+                    <td><video controls="controls" autoplay="autoplay">
+                        <source src="./static/videos/mp4/light.mp4" type="video/mp4" /></video></td>
+                    <td><video controls="controls" autoplay="autoplay">
+                        <source src="./static/videos/mp4/bike.mp4" type="video/mp4" /></video></td>
+                  </tr>
+                  <tr>
+                    <td><video controls="controls" autoplay="autoplay">
+                        <source src="./static/videos/mp4/flowers_drops.mp4" type="video/mp4" /></video></td>
+                    <td><video controls="controls" autoplay="autoplay">
+                        <source src="./static/videos/mp4/girl.mp4" type="video/mp4" /></video></td>
+                    <td><video controls="controls" autoplay="autoplay">
+                        <source src="./static/videos/mp4/lighthouse.mp4" type="video/mp4" /></video></td>
+                    <td><video controls="controls" autoplay="autoplay">
+                        <source src="./static/videos/mp4/mashroom.mp4" type="video/mp4" /></video></td>
+                    <td><video controls="controls" autoplay="autoplay">
+                        <source src="./static/videos/mp4/jellyfish.mp4" type="video/mp4" /></video></td>
+                  </tr>
+                  <tr>
+                    <td><video controls="controls" autoplay="autoplay">
+                        <source src="./static/videos/mp4/butterfly.mp4" type="video/mp4" /></video></td>
+                    <td><video controls="controls" autoplay="autoplay">
+                        <source src="./static/videos/mp4/cat_on_the_beach.mp4" type="video/mp4" /></video></td>
+                    <td><video controls="controls" autoplay="autoplay">
+                        <source src="./static/videos/mp4/cheburashka.mp4" type="video/mp4" /></video></td>
+                    <td><video controls="controls" autoplay="autoplay">
+                        <source src="./static/videos/mp4/cow.mp4" type="video/mp4" /></video></td>
+                    <td><video controls="controls" autoplay="autoplay">
+                        <source src="./static/videos/mp4/ducks.mp4" type="video/mp4" /></video></td>
+                  </tr>
+                  <tr>
+                    <td><video controls="controls" autoplay="autoplay">
+                        <source src="./static/videos/mp4/flowers.mp4" type="video/mp4" /></video></td>
+                    <td><video controls="controls" autoplay="autoplay">
+                        <source src="./static/videos/mp4/gena.mp4" type="video/mp4" /></video></td>
+                    <td><video controls="controls" autoplay="autoplay">
+                        <source src="./static/videos/mp4/island.mp4" type="video/mp4" /></video></td>
+                    <td><video controls="controls" autoplay="autoplay">
+                        <source src="./static/videos/mp4/octupus.mp4" type="video/mp4" /></video></td>
+                    <td><video controls="controls" autoplay="autoplay">
+                        <source src="./static/videos/mp4/panda.mp4" type="video/mp4" /></video></td>
+                  </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{arkhipkin2023fusionframes,
+  title     = {FusionFrames: Efficient Architectural Aspects for Text-to-Video Generation Pipeline},
+  author    = {Arkhipkin, Vladimir and Shaheen, Zein and Vasilev, Viacheslav and Dakhova, Elizaveta and Kuznetsov, Andrey and Dimitrov, Denis},
+  journal   = {arXiv preprint arXiv:2311.13073},
+  year      = {2023}, 
+}</code></pre>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This website is licensed under a <a rel="license"
+                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
