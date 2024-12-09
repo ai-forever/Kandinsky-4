@@ -83,7 +83,7 @@ class Kandinsky4T2VPipeline:
             world_size=1,
     ):
         if resolution not in [512]:
-            raise ValueError("Resolution can be only 512 or 1024")
+            raise ValueError("Resolution can be only 512")
 
         self.dit = dit
         self.noise_scheduler = noise_scheduler
