@@ -4,11 +4,7 @@ from argparse import ArgumentParser
 import time
 
 
-if __name__ == "__main__":
-    parser = ArgumentParser()
-    parser.add_argument('--local-rank', dest="local_rank", type=int, default=0)
-    args = parser.parse_args()
-    
+if __name__ == "__main__":    
     device_map = {
         "dit": torch.device('cuda:0'), 
         "vae": torch.device('cuda:0'), 
