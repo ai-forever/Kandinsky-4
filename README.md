@@ -1,4 +1,21 @@
-# Kandinsky-4: Text-to-Video diffusion model
+# Kandinsky-4 flash: Text-to-Video diffusion model
+
+![]()
+
+[Kandinsky 4.0 Post]() | [Project Page]() | [Generate]() | [Telegram-bot]() | [Technical Report]() |  [HuggingFace]() |
+
+## Description:
+
+Kandinsky 4.0 is a text-to-video generation model based on latent diffusion for 480p and HD resolutions. Here we present distiled version of this model Kandisnly 4 flash, that can generate 12 second videos in 480p resolution in 11 seconds on single gpu. The pipeline consist of 3D causal CogVideoX VAE, text embedder T5-V1.1-XXL and our trained MMDiT-like transformer model.
+
+<img src="assets/pipeline.png">
+
+
+### Architecture
+
+For training Kandinsky Flash we used the following architecture of discriminator. It is the half of Kandinsky 3.0 U-Net encoder with additional head predictions.
+
+<img src="assets/MMDiT1.png"> <img src="assets/MMDiT_block1.png">
 
 ## How to use:
 ```python
