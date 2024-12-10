@@ -2,7 +2,7 @@
 
 ![]()
 
-[Kandinsky 4.0 Post]() | [Project Page]() | [Generate]() | [Telegram-bot]() | [Technical Report]() |  [HuggingFace]() |
+[Kandinsky 4.0 Post]() | [Project Page]() | [Generate]() | [Telegram-bot]() | [Technical Report]() |  [HuggingFace](https://huggingface.co/ai-forever/kandinsky4) |
 
 ## Description:
 
