@@ -15,7 +15,7 @@ A serious problem for all diffusion models, and especially video generation mode
 <img src="assets/LADD.png">
 
 
-### Architecture
+## Architecture
 
 For training Kandinsky 4 Flash we used the following architecture of diffusion transformer, based on MMDiT proposed in [Stable Diffusion 3](https://arxiv.org/pdf/2403.03206).
 
