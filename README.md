@@ -10,18 +10,18 @@ Kandinsky 4.0 is a text-to-video generation model based on latent diffusion for 
 
 <img src="assets/pipeline.png">
 
-To speed up generation we used [Latent Adversarial Diffusion Distillation (LADD)](https://arxiv.org/pdf/2403.12015).
+A serious problem for all diffusion models, and especially video generation models, is the generation speed. To solve this problem, we used the Latent Adversarial Diffusion Distillation (LADD) approach, proposed for distilling image generation models and first described in the [article](https://arxiv.org/pdf/2403.12015) from Stability AI and tested by us when training the [Kandinsky 3.1](https://github.com/ai-forever/Kandinsky-3) image generation model. The distillation pipeline itself involves additional training of the diffusion model in the GAN pipeline, i.e. joint training of the diffusion generator with the discriminator.
 
 <img src="assets/LADD.png">
 
 
 ### Architecture
 
-For training Kandinsky 4 Flash we used the following architecture of diffusion transformer, based on MMDiT propoosed in [Stable Diffusion 3](https://arxiv.org/pdf/2403.03206).
+For training Kandinsky 4 Flash we used the following architecture of diffusion transformer, based on MMDiT proposed in [Stable Diffusion 3](https://arxiv.org/pdf/2403.03206).
 
 <img src="assets/MMDiT1.png"> <img src="assets/MMDiT_block1.png">
 
-For training Kandinsky 4 Flash we used the following architecture of discriminator.
+For training flash version we used the following architecture of discriminator. Discriminator head structure resembles half of an MMDiT block.
 
 <img src="assets/discriminator.png"> <img src="assets/discriminator_head.png">
 
