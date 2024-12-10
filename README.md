@@ -10,12 +10,21 @@ Kandinsky 4.0 is a text-to-video generation model based on latent diffusion for 
 
 <img src="assets/pipeline.png">
 
+To speed up generation we used [Latent Adversarial Diffusion Distillation (LADD)](https://arxiv.org/pdf/2403.12015).
+
+<img src="assets/LADD.png">
+
 
 ### Architecture
 
-For training Kandinsky 4 Flash we used the following architecture of diffusion transformer. It ia based on MMDiT architecture propoosed in [Stable Diffusion 3](https://arxiv.org/pdf/2403.03206).
+For training Kandinsky 4 Flash we used the following architecture of diffusion transformer, based on MMDiT propoosed in [Stable Diffusion 3](https://arxiv.org/pdf/2403.03206).
 
 <img src="assets/MMDiT1.png"> <img src="assets/MMDiT_block1.png">
+
+For training Kandinsky 4 Flash we used the following architecture of discriminator.
+
+<img src="assets/discriminator.png"> <img src="assets/discriminator_head.png">
+
 
 ## How to use:
 ```python
