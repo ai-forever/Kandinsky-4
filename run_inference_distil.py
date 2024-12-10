@@ -10,6 +10,7 @@ if __name__ == "__main__":
         "vae": torch.device('cuda:0'), 
         "text_embedder": torch.device('cuda:0')
     }
+    
     pipe = get_T2V_pipeline(device_map, resolution=512)
 
     prompt = "Several giant wooly mammoths approach treading through a snowy meadow, their long wooly fur lightly blows in the wind as they walk, snow covered trees and dramatic snow capped mountains in the distance"
