@@ -1,4 +1,4 @@
-# Inference for Kandinsky 4
+# Kandinsky-4: Text-to-Video diffusion model
 
 There is one main pipeline now:
 * Text-to-video: use **get_T2V_pipeline** function to get it
