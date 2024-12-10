@@ -7,9 +7,9 @@ from .utils import freeze
 
 
 class BaseEmbedder:
-    
     def __init__(self, conf):
         self.checkpoint_path = conf.text_embedder.params.checkpoint_path
+        self.tokenizer_path = conf.text_embedder.params.tokenizer_path
         self.max_length = conf.text_embedder.tokens_lenght
         self.llm = None
 
@@ -53,8 +53,9 @@ class T5TextEmbedder(EmbedderWithTokenizer):
         from transformers import T5EncoderModel, T5Tokenizer
 
         super().__init__(conf)
+                
         self.llm = T5EncoderModel.from_pretrained(self.checkpoint_path)
-        self.tokenizer = T5Tokenizer.from_pretrained(self.checkpoint_path, clean_up_tokenization_spaces=False)
+        self.tokenizer = T5Tokenizer.from_pretrained(self.tokenizer_path, clean_up_tokenization_spaces=False)
 
 
 def get_text_embedder(conf):

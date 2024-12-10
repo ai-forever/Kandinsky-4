@@ -194,10 +194,8 @@ class DiffusionTransformer3D(nn.Module):
 
 
 def get_dit(conf):
-    scheduler = CogVideoXDDIMScheduler.from_pretrained(conf.scheduler)
-
     dit = DiffusionTransformer3D(**conf.params)
     state_dict = torch.load(conf.checkpoint_path, weights_only=True, map_location=torch.device('cpu'))
     dit.load_state_dict(state_dict, strict=False)
-    return scheduler, dit
+    return dit
 

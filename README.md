@@ -70,3 +70,15 @@ To run this examples from terminal without tensor parallel:
 ```
 python run_inference_distil.py
 ```
+
+# Authors
++ Lev Novitkiy: [Github](https://github.com/leffff), [Blog](https://t.me/mlball_days)
++ Maria Kovaleva [Github](https://github.com/MarKovka20)
++ Vladimir Arkhipkin: [Github](https://github.com/oriBetelgeuse)
++ Zein Shaheen: [Github](https://github.com/zeinsh)
++ Viacheslav Vasilev: [Github](https://github.com/vivasilev)
++ Andrei Filatov [Github](https://github.com/anvilarth)
++ Julia Agafonova
++ Nikolay Gerasimenko [Github](https://github.com/Nikolay-Gerasimenko)
++ Andrey Kuznetsov: [Github](https://github.com/kuznetsoffandrey), [Blog](https://t.me/complete_ai)
++ Denis Dimitrov: [Github](https://github.com/denndimitrov), [Blog](https://t.me/dendi_math_ai)
