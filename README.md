@@ -1,4 +1,6 @@
-# Kandinsky-4 flash: Text-to-Video diffusion model
+# Kandinsky-4: Text-to-Video diffusion model
+
+This repository is the official implementation of Kandinsky-4 flash and Kandinsky-4 Audio.
 
 ![]()
 
