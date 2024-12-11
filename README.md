@@ -3,45 +3,50 @@
 This repository is the official implementation of Kandinsky-4 flash and Kandinsky-4 Audio.
 
 
-
-
-<table border="0" style="width: 100%; text-align: left; margin-top: 20px;">
+<table border="0" style="width: 200; text-align: left; margin-top: 20px;">
   <tr>
       <td>
-          <video src="https://github.com/user-attachments/assets/64d6e802-9e79-4e86-9d21-04e31d5104a2" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/c52f5734-79de-4d09-b738-0ad09ffda25f" width=200 controls autoplay loop></video>
       </td>
       <td>
-          <video src="https://github.com/user-attachments/assets/b2adc300-46ff-4628-997c-6c9378b8cf0d" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/e3a8f092-469f-4f97-adac-0675a205a664" width=200 controls autoplay loop></video>
       </td>
       <td>
-          <video src="https://github.com/user-attachments/assets/e3a8f092-469f-4f97-adac-0675a205a664" width="100%" controls autoplay loop></video>
-      </td>
-      <td>
-          <video src="https://github.com/user-attachments/assets/7c880381-3a09-463a-9216-00ac2d03f8d8" width="100%" controls autoplay loop></video>
-      </td>
-      <td>
-          <video src="https://github.com/user-attachments/assets/9131d737-e60e-4a49-ba22-498619071e82" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/9131d737-e60e-4a49-ba22-498619071e82" width=200 controls autoplay loop></video>
       </td>
   </tr>
 
   <tr>
       <td>
-          <video src="https://github.com/user-attachments/assets/344f220a-db31-443f-8f1d-8b5c6162aa2a" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/9aa4850c-ed1f-4979-8476-d41ff2eb3835" width=200 controls autoplay loop></video>
       </td>
       <td>
-          <video src="https://github.com/user-attachments/assets/26a8c316-3d7c-4444-83b5-d7190026a6c1" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/8beb79ba-941f-4c3f-a937-53870911fe93" width=200 controls autoplay loop></video>
       </td>
       <td>
-          <video src="https://github.com/user-attachments/assets/8beb79ba-941f-4c3f-a937-53870911fe93" width="100%" controls autoplay loop></video>
-      </td>
-      <td>
-          <video src="https://github.com/user-attachments/assets/9fcc7668-2ecb-4621-8c58-472fdb6532f3" width="100%" controls autoplay loop></video>
-      </td>
-      <td>
-          <video src="https://github.com/user-attachments/assets/1a88d4d3-7c59-49b8-a737-97e41c5fe2f5" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/9fcc7668-2ecb-4621-8c58-472fdb6532f3" width=200 controls autoplay loop></video>
       </td>
   </tr>
+
+
+  <tr>
+      <td>
+          <video src="https://github.com/user-attachments/assets/42fa8321-9b03-4864-84bc-c4181d17f49e" width=200 controls autoplay loop></video>
+      </td>
+      <td>
+          <video src="https://github.com/user-attachments/assets/3a0f5674-60a6-4fc5-9d37-be6d57150d54" width=200 controls autoplay loop></video>
+      </td>
+      <td>
+          <video src="https://github.com/user-attachments/assets/d3dabeeb-3b88-4d56-8700-1cb2a374fdb2" width=200 controls autoplay loop></video>
+      </td>
+  </tr>
+
+  
 </table>
+
+
+
+
 
 [Kandinsky 4.0 Post]() | [Project Page]() | [Generate]() | [Telegram-bot]() | [Technical Report]() | [GitHub](https://github.com/ai-forever/Kandinsky-4) | [HuggingFace](https://huggingface.co/ai-forever/kandinsky4) |
 
