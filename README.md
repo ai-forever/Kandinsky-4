@@ -191,6 +191,7 @@ create_video(
 + Vladimir Arkhipkin: [GitHub](https://github.com/oriBetelgeuse)
 + Ivan Kirillov: [GitHub](https://github.com/funnylittleman)
 + Zein Shaheen: [GitHub](https://github.com/zeinsh)
++ Arseniy Shakhmatov: [Github](https://github.com/cene555), [Blog](https://t.me/gradientdip)
 + Andrei Shutkin: [GitHub](https://github.com/maleficxp)
 + Denis Parkhomenko: [GitHub](https://github.com/nihao88)
 + Viacheslav Vasilev: [GitHub](https://github.com/vivasilev)
