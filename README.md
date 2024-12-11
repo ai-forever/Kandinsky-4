@@ -170,8 +170,6 @@ create_video(
 )
 ```
 
-https://github.com/user-attachments/assets/49756e68-4e80-41a0-a09b-d886d7e0d6e7
-
 
 # Authors
 + Lev Novitkiy: [GitHub](https://github.com/leffff), [Blog](https://t.me/mlball_days)
