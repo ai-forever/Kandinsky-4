@@ -52,7 +52,7 @@ This repository is the official implementation of Kandinsky-4 flash and Kandinsk
 
 ## Description:
 
-Kandinsky 4.0 is a text-to-video generation model based on latent diffusion for 480p and HD resolutions. Here we present distiled version of this model Kandisnly 4 flash, that can generate 12 second videos in 480p resolution in 11 seconds on single gpu. The pipeline consist of 3D causal [CogVideoX](https://arxiv.org/pdf/2408.06072) VAE, text embedder [T5-V1.1-XXL](https://huggingface.co/google/t5-v1_1-xxl) and our trained MMDiT-like transformer model.
+Kandinsky 4.0 is a text-to-video generation model based on latent diffusion for 480p and HD resolutions. Here we present distiled version of this model **Kandisnly 4 flash**, that can generate **12 second videos** in 480p resolution in **11 seconds** on a single NVIDIA H100 gpu. The pipeline consist of 3D causal [CogVideoX](https://arxiv.org/pdf/2408.06072) VAE, text embedder [T5-V1.1-XXL](https://huggingface.co/google/t5-v1_1-xxl) and our trained MMDiT-like transformer model.
 
 <img src="assets/pipeline.png">
 
