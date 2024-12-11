@@ -171,6 +171,20 @@ create_video(
 ```
 
 
+<table border="0" style="width: 200; text-align: left; margin-top: 20px;">
+  <tr>
+      <td>
+          <video src="https://github.com/user-attachments/assets/c52f5734-79de-4d09-b738-0ad09ffda25f" width=200 controls autoplay loop></video>
+      </td>
+      <td>
+          <video src="https://github.com/user-attachments/assets/f4b4d615-b5d6-4e52-b72b-597d552e57cc" width=200 controls autoplay loop></video>
+      </td>
+      <td>
+          <video src="https://github.com/user-attachments/assets/c52f5734-79de-4d09-b738-0ad09ffda25f" width=200 controls autoplay loop></video>
+      </td>
+  </tr>
+</table>
+
 # Authors
 + Lev Novitkiy: [GitHub](https://github.com/leffff), [Blog](https://t.me/mlball_days)
 + Maria Kovaleva [GitHub](https://github.com/MarKovka20)
