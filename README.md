@@ -114,10 +114,7 @@ create_video(
 )
 ```
 
-<video controls>
-  <source src="assets/outputs/1.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/49756e68-4e80-41a0-a09b-d886d7e0d6e7
 
 
 # Authors
