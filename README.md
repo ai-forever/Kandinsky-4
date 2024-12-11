@@ -2,7 +2,7 @@
 
 ![]()
 
-[Kandinsky 4.0 Post]() | [Project Page]() | [Generate]() | [Telegram-bot]() | [Technical Report]() |  [HuggingFace](https://huggingface.co/ai-forever/kandinsky4) |
+[Kandinsky 4.0 Post]() | [Project Page]() | [Generate]() | [Telegram-bot]() | [Technical Report]() | [GitHub](https://github.com/ai-forever/Kandinsky-4) | [HuggingFace](https://huggingface.co/ai-forever/kandinsky4) |
 
 ## Description:
 
@@ -72,16 +72,16 @@ python run_inference_distil.py
 ```
 
 # Authors
-+ Lev Novitkiy: [Github](https://github.com/leffff), [Blog](https://t.me/mlball_days)
-+ Maria Kovaleva [Github](https://github.com/MarKovka20)
-+ Vladimir Arkhipkin: [Github](https://github.com/oriBetelgeuse)
-+ Denis Parkhomenko: [Github](https://github.com/nihao88)
-+ Andrei Shutkin: [Github](https://github.com/maleficxp)
-+ Ivan Kirillov: [Github](https://github.com/funnylittleman)
-+ Zein Shaheen: [Github](https://github.com/zeinsh)
-+ Viacheslav Vasilev: [Github](https://github.com/vivasilev)
-+ Andrei Filatov [Github](https://github.com/anvilarth)
++ Lev Novitkiy: [GitHub](https://github.com/leffff), [Blog](https://t.me/mlball_days)
++ Maria Kovaleva [GitHub](https://github.com/MarKovka20)
++ Vladimir Arkhipkin: [GitHub](https://github.com/oriBetelgeuse)
++ Denis Parkhomenko: [GitHub](https://github.com/nihao88)
++ Andrei Shutkin: [GitHub](https://github.com/maleficxp)
++ Ivan Kirillov: [GitHub](https://github.com/funnylittleman)
++ Zein Shaheen: [GitHub](https://github.com/zeinsh)
++ Viacheslav Vasilev: [GitHub](https://github.com/vivasilev)
++ Andrei Filatov [GitHub](https://github.com/anvilarth)
 + Julia Agafonova
-+ Nikolay Gerasimenko [Github](https://github.com/Nikolay-Gerasimenko)
-+ Andrey Kuznetsov: [Github](https://github.com/kuznetsoffandrey), [Blog](https://t.me/complete_ai)
-+ Denis Dimitrov: [Github](https://github.com/denndimitrov), [Blog](https://t.me/dendi_math_ai)
++ Nikolay Gerasimenko [GitHub](https://github.com/Nikolay-Gerasimenko)
++ Andrey Kuznetsov: [GitHub](https://github.com/kuznetsoffandrey), [Blog](https://t.me/complete_ai)
++ Denis Dimitrov: [GitHub](https://github.com/denndimitrov), [Blog](https://t.me/dendi_math_ai)
