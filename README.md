@@ -27,6 +27,8 @@ For training flash version we used the following architecture of discriminator. 
 
 
 ## How to use:
+
+### 1. Text-to-Video
 ```python
 import torch
 from IPython.display import Video
@@ -70,6 +72,53 @@ To run this examples from terminal without tensor parallel:
 ```
 python run_inference_distil.py
 ```
+
+### 2. Video-to-Audio
+
+```python
+import torch
+import torchvision
+
+from kandinsky4_video2audio.video2audio_pipe import Video2AudioPipeline
+from kandinsky4_video2audio.utils import load_video, create_video
+
+device='cuda:0'
+
+pipe = Video2AudioPipeline(
+    "ai-forever/kandinsky4-Audio",
+    torch_dtype=torch.float16,
+    device = device
+)
+
+video_path = 'assets/inputs/1.mp4'
+video, _, fps = torchvision.io.read_video(video_path)
+
+prompt="clean. clear. good quality."
+negative_prompt = "hissing noise. drumming rythm. saying. poor quality."
+video_input, video_complete, duration_sec = load_video(video, fps['video_fps'], num_frames=96, max_duration_sec=12)
+    
+out = pipe(
+    video_input,
+    prompt,
+    negative_prompt=negative_prompt,
+    duration_sec=duration_sec, 
+)[0]
+
+save_path = f'assets/outputs/1.mp4'
+create_video(
+    out, 
+    video_complete, 
+    display_video=True,
+    save_path=save_path,
+    device=device
+)
+```
+
+<video controls>
+  <source src="assets/outputs/1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
 # Authors
 + Lev Novitkiy: [GitHub](https://github.com/leffff), [Blog](https://t.me/mlball_days)
