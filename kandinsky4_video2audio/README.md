@@ -12,8 +12,10 @@ Our UNet diffusion model is a finetune of the music generation model [riffusion]
 ## Installation
 
 ```bash
+git clone https://github.com/ai-forever/Kandinsky-4.git
+cd Kandinsky-4
 conda install -c conda-forge ffmpeg -y
-pip install -r ./requirements.txt
+pip install -r kandinsky4_video2audio/requirements.txt
 pip install "git+https://github.com/facebookresearch/pytorchvideo.git"
 ```
 
