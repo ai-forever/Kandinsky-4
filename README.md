@@ -77,6 +77,16 @@ python run_inference_distil.py
 
 ### 2. Video-to-Audio
 
+![pipeline-audio](https://github.com/user-attachments/assets/f5d6fafb-6e0a-4362-b6e0-63c51c79bfc2)
+
+Video to Audio pipeline consists of a visual encoder, a text encoder, UNet diffusion model to generate spectrogram and Griffin-lim algorithm to convert spectrogram into audio. 
+Visual and text encoders share the same multimodal visual language decoder ([cogvlm2-video-llama3-chat](link)). 
+
+Our UNet diffusion model is a finetune of the music generation model [riffusion](https://huggingface.co/riffusion/riffusion-model-v1). We made modifications in the architecture to condition on video frames and improve the synchronization between video and audio. Also, we replace the text encoder with the decoder of [cogvlm2-video-llama3-chat](link).
+
+
+Inference code for Video-to-Audio:
+
 ```python
 import torch
 import torchvision
