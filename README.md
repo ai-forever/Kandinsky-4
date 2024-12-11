@@ -181,7 +181,7 @@ create_video(
 + Denis Parkhomenko: [GitHub](https://github.com/nihao88)
 + Viacheslav Vasilev: [GitHub](https://github.com/vivasilev)
 + Andrei Filatov [GitHub](https://github.com/anvilarth)
-+ Julia Agafonova
++ Julia Agafonova [GitHub](https://github.com/Julia132)
 + Nikolay Gerasimenko [GitHub](https://github.com/Nikolay-Gerasimenko)
 + Andrey Kuznetsov: [GitHub](https://github.com/kuznetsoffandrey), [Blog](https://t.me/complete_ai)
 + Denis Dimitrov: [GitHub](https://github.com/denndimitrov), [Blog](https://t.me/dendi_math_ai)
