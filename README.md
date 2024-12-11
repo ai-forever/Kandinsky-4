@@ -193,6 +193,7 @@ create_video(
 + Zein Shaheen: [GitHub](https://github.com/zeinsh)
 + Arseniy Shakhmatov: [Github](https://github.com/cene555), [Blog](https://t.me/gradientdip)
 + Andrei Shutkin: [GitHub](https://github.com/maleficxp)
++ Kirill Chernishev: [GitHub](https://github.com/rtyasdf)
 + Denis Parkhomenko: [GitHub](https://github.com/nihao88)
 + Viacheslav Vasilev: [GitHub](https://github.com/vivasilev)
 + Andrei Filatov [GitHub](https://github.com/anvilarth)
