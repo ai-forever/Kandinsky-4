@@ -1,5 +1,10 @@
 # Kandinsky-4: Text-to-Video diffusion model
 
+![Landinsky Logo](assets/KANDINSKY_LOGO_1_BLACK.png)
+
+[Kandinsky 4.0 Post]() | [Project Page]() | [Generate]() | [Telegram-bot]() | [Technical Report]() | [GitHub](https://github.com/ai-forever/Kandinsky-4) | [HuggingFace](https://huggingface.co/ai-forever/kandinsky4) |
+
+
 This repository is the official implementation of Kandinsky-4 flash and Kandinsky-4 Audio.
 
 
@@ -48,7 +53,7 @@ This repository is the official implementation of Kandinsky-4 flash and Kandinsk
 
 
 
-[Kandinsky 4.0 Post]() | [Project Page]() | [Generate]() | [Telegram-bot]() | [Technical Report]() | [GitHub](https://github.com/ai-forever/Kandinsky-4) | [HuggingFace](https://huggingface.co/ai-forever/kandinsky4) |
+
 
 ## Description:
 
