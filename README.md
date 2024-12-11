@@ -187,9 +187,9 @@ create_video(
 
 
 # Authors
++ Vladimir Arkhipkin: [GitHub](https://github.com/oriBetelgeuse)
 + Lev Novitkiy: [GitHub](https://github.com/leffff), [Blog](https://t.me/mlball_days)
 + Maria Kovaleva [GitHub](https://github.com/MarKovka20)
-+ Vladimir Arkhipkin: [GitHub](https://github.com/oriBetelgeuse)
 + Ivan Kirillov: [GitHub](https://github.com/funnylittleman)
 + Zein Shaheen: [GitHub](https://github.com/zeinsh)
 + Arseniy Shakhmatov: [Github](https://github.com/cene555), [Blog](https://t.me/gradientdip)
@@ -200,9 +200,9 @@ create_video(
 + Andrei Filatov [GitHub](https://github.com/anvilarth)
 + Julia Agafonova [GitHub](https://github.com/Julia132)
 + Nikolay Gerasimenko [GitHub](https://github.com/Nikolay-Gerasimenko)
-+ Konstantin Sobolev [GitHub](https://github.com/k-sobolev)
 + Arsen Kuzhamuratov [GitHub](https://github.com/kuzhamuratov)
 + Mikhail Zhirnov [GitHub](https://github.com/zhirnov-m)
 + Alexandr Gambashidze [GitHub](https://github.com/sakharok13)
++ Konstantin Sobolev [GitHub](https://github.com/k-sobolev)
 + Andrey Kuznetsov: [GitHub](https://github.com/kuznetsoffandrey), [Blog](https://t.me/complete_ai)
 + Denis Dimitrov: [GitHub](https://github.com/denndimitrov), [Blog](https://t.me/dendi_math_ai)
