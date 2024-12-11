@@ -177,10 +177,10 @@ https://github.com/user-attachments/assets/49756e68-4e80-41a0-a09b-d886d7e0d6e7
 + Lev Novitkiy: [GitHub](https://github.com/leffff), [Blog](https://t.me/mlball_days)
 + Maria Kovaleva [GitHub](https://github.com/MarKovka20)
 + Vladimir Arkhipkin: [GitHub](https://github.com/oriBetelgeuse)
-+ Denis Parkhomenko: [GitHub](https://github.com/nihao88)
-+ Andrei Shutkin: [GitHub](https://github.com/maleficxp)
 + Ivan Kirillov: [GitHub](https://github.com/funnylittleman)
 + Zein Shaheen: [GitHub](https://github.com/zeinsh)
++ Andrei Shutkin: [GitHub](https://github.com/maleficxp)
++ Denis Parkhomenko: [GitHub](https://github.com/nihao88)
 + Viacheslav Vasilev: [GitHub](https://github.com/vivasilev)
 + Andrei Filatov [GitHub](https://github.com/anvilarth)
 + Julia Agafonova
