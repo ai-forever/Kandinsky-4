@@ -188,7 +188,7 @@ create_video(
 
 # Authors
 + Vladimir Arkhipkin: [GitHub](https://github.com/oriBetelgeuse)
-+ Lev Novitkiy: [GitHub](https://github.com/leffff), [Blog](https://t.me/mlball_days)
++ Lev Novitskiy: [GitHub](https://github.com/leffff), [Blog](https://t.me/mlball_days)
 + Maria Kovaleva [GitHub](https://github.com/MarKovka20)
 + Ivan Kirillov: [GitHub](https://github.com/funnylittleman)
 + Zein Shaheen: [GitHub](https://github.com/zeinsh)
