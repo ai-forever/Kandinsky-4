@@ -2,6 +2,10 @@
 
 ![]()
 
+<video width="672" height="384" controls>
+  <source src="assets/generation_examples/480p_flash/dance.mp4" type="video/mp4">
+</video>
+
 [Kandinsky 4.0 Post]() | [Project Page]() | [Generate]() | [Telegram-bot]() | [Technical Report]() | [GitHub](https://github.com/ai-forever/Kandinsky-4) | [HuggingFace](https://huggingface.co/ai-forever/kandinsky4) |
 
 ## Description:
