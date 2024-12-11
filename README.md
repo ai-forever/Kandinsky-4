@@ -1,7 +1,5 @@
 # Kandinsky-4 flash: Text-to-Video diffusion model
 
-![]()
-
 <video width="672" height="384" controls>
   <source src="assets/generation_examples/480p_flash/dance.mp4" type="video/mp4">
 </video>
