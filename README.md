@@ -1,4 +1,4 @@
-# Kandinsky-4: text-to-video, image-to-video, video-to-audio diffusion models
+# Kandinsky 4.0: text-to-video, image-to-video, video-to-audio diffusion models
 <br><br><br><br>
 
 <div align="center">
@@ -10,7 +10,7 @@
 </div>
 
 <div align="center">
-  This repository is the official implementation of Kandinsky-4 flash and Kandinsky-4 Audio.
+  This repository is the official implementation of Kandinsky 4.0 T2V Flash and Kandinsky 4.0 V2A.
 </div>
 
 <br><br><br><br>
@@ -18,15 +18,19 @@
 
 ## Text-to-video and image-to-video
 
-### Text-to-video (Kandinsky 4.0 T2V)
+### Kandinsky 4.0 T2V (text-to-video)
 open source SOON
 examples from PP needed
 
-### Image-to-video (Kandinsky 4.0 I2V)
+### Kandinsky 4.0 I2V (image-to-video)
 open source SOON
 examples from PP needed
 
-### Text-to-video Distilled (Kandinsky 4.0 T2V Flash)
+### Kandinsky 4.0 T2V Flash (distilled version of Kandinsky 4.0 T2V)
+
+## Examples:
+
+NEED TO BE UPDATED!
 
 <br><br>
 
@@ -70,7 +74,6 @@ examples from PP needed
 
   
 </table>
-
 
 ## Description:
 
@@ -141,7 +144,9 @@ To run this examples from terminal without tensor parallel:
 python run_inference_distil.py
 ```
 
-### 2. Video-to-Audio
+## Video-to-audio
+
+### 2. Kandinsky 4.0 V2A (video-to-audio)
 
 ![pipeline-audio](https://github.com/user-attachments/assets/f5d6fafb-6e0a-4362-b6e0-63c51c79bfc2)
 
