@@ -22,7 +22,7 @@
 
 ### Examples:
 
-<table border="0" style="width: 200; text-align: left; margin-top: 20px;">
+<table border="0" style="width: 100; text-align: left; margin-top: 20px;">
   <tr>
       <td>
           <video src="https://github.com/user-attachments/assets/b324ee89-3deb-49e7-a506-92f67cd7dc54" width=200 controls autoplay loop></video>
