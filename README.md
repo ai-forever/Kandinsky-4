@@ -232,7 +232,7 @@ Andrey Kuznetsov, Sergey Markov
 
 ### Training Pipeline & Model Pretrain & Model Distillation
 
-Vladimir Arkhipkin, Novitkiy Lev, Maria Kovaleva
+Vladimir Arkhipkin, Novitskiy Lev, Maria Kovaleva
 
 ### Model Architecture
 
