@@ -10,20 +10,18 @@
   <a>Kandinsky 4.0 Post</a> | <a href=https://ai-forever.github.io/Kandinsky-4/K40/>Project Page</a> | <a href=https://huggingface.co/spaces/ai-forever/kandinsky-4-t2v-flash>Generate</a> | <a>Technical Report</a> | <a href=https://github.com/ai-forever/Kandinsky-4>GitHub</a> | <a href=https://huggingface.co/ai-forever/kandinsky-4-t2v-flash> Kandinsky 4.0 T2V Flash HuggingFace</a> | <a href=https://huggingface.co/ai-forever/kandinsky-4-v2a> Kandinsky 4.0 V2A HuggingFace</a>
 </div>
 
-# Kandinsky 4.0: A family of diffusion models for Video generation.
+<h1>Kandinsky 4.0: A family of diffusion models for Video generation.</h1>
 
 ## Content
 <ul>
-  <li><a href="#kandinsky-40-t2v-text-to-video">Kandinsky 4.0 T2V</a>: A text-to-video model - <em>Coming Soon</em></li>
+  <li><a href="#kandinsky-40-t2v">Kandinsky 4.0 T2V</a>: A text-to-video model - <em>Coming Soon</em></li>
   <li><a href="#kandinsky-40-t2v-flash-distilled-version-of-kandinsky-40-t2v-480p">Kandinsky 4.0 T2V Flash</a>: A distilled version of Kandinsky 4.0 T2V 480p.</li>
   <li><a href="#kandinsky-40-i2v-image-to-video">Kandinsky 4.0 I2V</a>: An image-to-video - <em>Coming Soon</em> </li>
   <li><a href="#kandinsky-40-v2a-video-to-audio">Kandinsky 4.0 V2A</a>: A video-to-audio model.</li>
 </ul>
 
-<br><br>
 
-
-## Kandinsky 4.0 T2V (text-to-video)
+## Kandinsky 4.0 T2V
 
 **Open source: SOON** 🤗
 
