@@ -67,6 +67,24 @@
 
 </table>
 
+<table border="0" style="width: 200; text-align: left; margin-top: 20px;">
+  <tr>
+      <td>
+          <video src="https://github.com/user-attachments/assets/49bfdab3-d978-4290-8b67-8dfbf32e590e" width=200 controls autoplay loop></video>
+      </td>
+      <td>
+          <video src="https://github.com/user-attachments/assets/d038e86c-0346-4f55-a19e-27e861be09d8" width=200 controls autoplay loop></video>
+      </td>
+      <td>
+          <video src="https://github.com/user-attachments/assets/ae06bd3f-c83f-4ec8-bf46-bf5cb1542db0" width=200 controls autoplay loop></video>
+      </td>
+      <td>
+          <video src="https://github.com/user-attachments/assets/f42b1635-55c7-4b0d-85b7-ed674e5c2e50" width=200 controls autoplay loop></video>
+      </td>
+  </tr>
+
+</table>
+
 ## Kandinsky 4.0 T2V Flash (distilled version of Kandinsky 4.0 T2V 480p)
 
 ### Examples:
