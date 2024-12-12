@@ -12,6 +12,8 @@
 
 <h1>Kandinsky 4.0: A family of diffusion models for Video generation.</h1>
 
+In this repository, we provide a family of diffusion models for to generate a video using a textual prompt or an image (<em>Coming Soon</em>), flash model for a faster generation and a video to audio generation model.
+
 ## Content
 <ul>
   <li><a href="#kandinsky-40-t2v">Kandinsky 4.0 T2V</a>: A text-to-video model - <em>Coming Soon</em></li>
@@ -23,7 +25,7 @@
 
 ## Kandinsky 4.0 T2V
 
-**Open source: SOON** 🤗
+<em>Coming Soon</em> 🤗
 
 ### Examples:
 
@@ -135,7 +137,7 @@ python -m torch.distributed.launch --nnodes $NUMBER_OF_NODES --nproc-per-node $N
 
 ## Kandinsky 4.0 I2V (image-to-video)
 
-**Open source: SOON** 🤗
+<em>Coming Soon</em> 🤗
 
 ### Examples:
 
