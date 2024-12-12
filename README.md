@@ -17,6 +17,12 @@
   This repository is the official implementation of Kandinsky 4.0 T2V Flash and Kandinsky 4.0 V2A.
 </div>
 
+
+<a href="#kandinsky-40-t2v-text-to-video">Kandinsky 4.0 T2V (text-to-video)</a>
+<a href="#kandinsky-40-t2v-flash-distilled-version-of-kandinsky-40-t2v-480p">Kandinsky 4.0 T2V Flash (distilled version of Kandinsky 4.0 T2V 480p)</a>
+<a href="#kandinsky-40-i2v-image-to-video">Kandinsky 4.0 I2V (image-to-video)</a>
+<a href="#kandinsky-40-v2a-video-to-audio">Kandinsky-4.0-v2a (Video-to-Audio)</a>
+
 <br><br><br><br>
 
 
