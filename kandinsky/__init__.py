@@ -48,7 +48,7 @@ def get_T2V_pipeline(
     
     if dit_path is None:
         dit_path = hf_hub_download(
-            repo_id="ai-forever/kandinsky4", filename=f"kandinsky4_distil_{resolution}.pt", local_dir=cache_dir
+            repo_id="ai-forever/kandinsky-4-t2v-flash", filename=f"kandinsky4_distil_{resolution}.pt", local_dir=cache_dir
         )
 
     if vae_path is None:
