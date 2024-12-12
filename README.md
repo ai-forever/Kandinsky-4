@@ -130,7 +130,7 @@ We also introduce the capability to perform inference in a distributed way
 ```
 python -m torch.distributed.launch --nnodes n --nproc-per-node m run_inference_distil.py
 ```
-where n is a number of nodes you have and m is a number of gpus on these nodes. The code was tested with n=1 and m=8, so this is preferable parameters.
+where n is a number of nodes you have and m is a number of gpus on these nodes. 
 
 ## Kandinsky 4.0 I2V (image-to-video)
 
