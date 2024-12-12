@@ -133,7 +133,7 @@ Please, refer to [examples.ipynb](examples.ipynb) notebook for more usage detail
 
 ### Distributed Inference
 
-For a faster inference, we also provide the capability to perform inference in a distributed way
+For a faster inference, we also provide the capability to perform inference in a distributed way:
 ```
 NUMBER_OF_NODES=1
 NUMBER_OF_DEVICES_PER_NODE=8
@@ -196,7 +196,7 @@ python -m torch.distributed.launch --nnodes $NUMBER_OF_NODES --nproc-per-node $N
 
 
 Video to Audio pipeline consists of a visual encoder, a text encoder, UNet diffusion model to generate spectrogram and Griffin-lim algorithm to convert spectrogram into audio. 
-Visual and text encoders share the same multimodal visual language decoder ([cogvlm2-video-llama3-chat](link)). 
+Visual and text encoders share the same multimodal visual language decoder ([cogvlm2-video-llama3-chat](https://huggingface.co/THUDM/cogvlm2-video-llama3-chat)). 
 
 Our UNet diffusion model is a finetune of the music generation model [riffusion](https://huggingface.co/riffusion/riffusion-model-v1). We made modifications in the architecture to condition on video frames and improve the synchronization between video and audio. Also, we replace the text encoder with the decoder of [cogvlm2-video-llama3-chat](https://huggingface.co/THUDM/cogvlm2-video-llama3-chat).
 
