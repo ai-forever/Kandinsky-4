@@ -1,4 +1,4 @@
-# Kandinsky 4.0: text-to-video, image-to-video, video-to-audio diffusion models
+# Kandinsky 4.0: text-to-video, image-to-video, and video-to-audio diffusion models
 <br><br><br><br>
 
 <div align="center">
@@ -219,25 +219,33 @@ create_video(
 # Authors
 
 **Project Leader**
+
 Denis Dimitrov
 
 **Scientific Consultant**
+
 Andrey Kuznetsov, Sergey Markov
 
 **Training Pipeline & Model Pretrain & Model Distillation**
+
 Vladimir Arkhipkin, Novitkiy Lev, Maria Kovaleva
 
 **Model Architecture**
+
 Vladimir Arkhipkin, Maria Kovaleva, Zein Shaheen, Arsen Kuzhamuratov, Nikolay Gerasimenko, Mikhail Zhirnov, Alexandr Gambashidze, Konstantin Sobolev
 
 **Data Pipeline**
+
 Ivan Kirillov, Andrei Shutkin, Kirill Chernishev, Julia Agafonova, Denis Parkhomenko
 
 **Audio Model**
+
 Zein Shaheen, Arseniy Shakhmatov, Denis Parkhomenko
 
 **Quality Assessment**
+
 Nikolay Gerasimenko, Anna Averchenkova
 
 **Other Contributors**
+
 Viacheslav Vasilev, Andrei Filatov, Gregory Leleytner
