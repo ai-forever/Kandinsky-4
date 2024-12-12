@@ -1,4 +1,4 @@
-# Kandinsky-4: Text-to-Video diffusion model
+# Kandinsky-4: text-to-video, image-to-video, video-to-audio diffusion models
 <br><br><br><br>
 
 <div align="center">
@@ -15,6 +15,8 @@
 
 <br><br><br><br>
 
+
+## 
 
 <br><br>
 
