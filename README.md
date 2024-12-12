@@ -1,4 +1,4 @@
-# Kandinsky 4.0: text-to-video, image-to-video, and video-to-audio diffusion models
+# Kandinsky 4.0: A family of diffusion models for Video generation.
 <br><br><br><br>
 
 <div align="center">
