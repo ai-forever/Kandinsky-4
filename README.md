@@ -90,9 +90,9 @@
 
 ### Description:
 
-Kandinsky 4.0 is a text-to-video generation model based on latent diffusion for 480p and HD resolutions. Here we present distiled version of this model **Kandisnly 4 flash**, that can generate **12 second videos** in 480p resolution in **11 seconds** on a single NVIDIA H100 gpu. The pipeline consist of 3D causal [CogVideoX](https://arxiv.org/pdf/2408.06072) VAE, text embedder [T5-V1.1-XXL](https://huggingface.co/google/t5-v1_1-xxl) and our trained MMDiT-like transformer model.
+Kandinsky 4.0 is a text-to-video generation model leveraging latent diffusion to produce videos in both 480p and HD resolutions. We also introduce Kandinsky 4 Flash, a distilled version of the model capable of generating 12-second 480p videos in just 11 seconds using a single NVIDIA H100 GPU. The pipeline integrates a 3D causal [CogVideoX](https://arxiv.org/pdf/2408.06072) VAE, the [T5-V1.1-XXL](https://huggingface.co/google/t5-v1_1-xxl) text embedder, and our custom-trained MMDiT-like transformer model.
 
-<img src="assets/pipeline.png" height=500>
+<center><img src="assets/pipeline.png" height=500></center>
 
 A serious problem for all diffusion models, and especially video generation models, is the generation speed. To solve this problem, we used the Latent Adversarial Diffusion Distillation (LADD) approach, proposed for distilling image generation models and first described in the [article](https://arxiv.org/pdf/2403.12015) from Stability AI and tested by us when training the [Kandinsky 3.1](https://github.com/ai-forever/Kandinsky-3) image generation model. The distillation pipeline itself involves additional training of the diffusion model in the GAN pipeline, i.e. joint training of the diffusion generator with the discriminator.
 
