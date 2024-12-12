@@ -49,13 +49,39 @@
 
 ### Examples:
 
-NEEDED (from PP)
+<table border="0" style="width: 200; text-align: left; margin-top: 20px;">
+  <tr>
+      <td>
+          <video src="" width=200 controls autoplay loop></video>
+      </td>
+      <td>
+          <video src="https://github.com/user-attachments/assets/e17f4384-9f81-4a75-a3b8-fe2431c30fac" width=200 controls autoplay loop></video>
+      </td>
+  </tr>
+  <table border="0" style="width: 200; text-align: left; margin-top: 20px;">
+  <tr>
+      <td>
+          <video src="" width=200 controls autoplay loop></video>
+      </td>
+      <td>
+          <video src="https://github.com/user-attachments/assets/2116ace3-3edf-434d-a425-b13309a35bb7" width=200 controls autoplay loop></video>
+      </td>
+  </tr>
+  <table border="0" style="width: 200; text-align: left; margin-top: 20px;">
+  <tr>
+      <td>
+          <video src="" width=200 controls autoplay loop></video>
+      </td>
+      <td>
+          <video src="https://github.com/user-attachments/assets/dbfa54ac-225d-4d30-94c1-eb371a5c6031" width=200 controls autoplay loop></video>
+      </td>
+  </tr>
+
+</table>
 
 ## Kandinsky 4.0 T2V Flash (distilled version of Kandinsky 4.0 T2V)
 
 ### Examples:
-
-<br><br>
 
 <table border="0" style="width: 200; text-align: left; margin-top: 20px;">
   <tr>
