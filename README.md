@@ -18,12 +18,17 @@
 </div>
 
 
-<a href="#kandinsky-40-t2v-text-to-video">Kandinsky 4.0 T2V (text-to-video)</a>
-<a href="#kandinsky-40-t2v-flash-distilled-version-of-kandinsky-40-t2v-480p">Kandinsky 4.0 T2V Flash (distilled version of Kandinsky 4.0 T2V 480p)</a>
-<a href="#kandinsky-40-i2v-image-to-video">Kandinsky 4.0 I2V (image-to-video)</a>
-<a href="#kandinsky-40-v2a-video-to-audio">Kandinsky-4.0-v2a (Video-to-Audio)</a>
+<br><br>
 
-<br><br><br><br>
+## Content
+<ul>
+  <li><a href="#kandinsky-40-t2v-text-to-video">Kandinsky 4.0 T2V</a>: A text-to-video model - <em>Coming Soon</em></li>
+  <li><a href="#kandinsky-40-t2v-flash-distilled-version-of-kandinsky-40-t2v-480p">Kandinsky 4.0 T2V Flash</a>: A distilled version of Kandinsky 4.0 T2V 480p.</li>
+  <li><a href="#kandinsky-40-i2v-image-to-video">Kandinsky 4.0 I2V</a>: An image-to-video - <em>Coming Soon</em> </li>
+  <li><a href="#kandinsky-40-v2a-video-to-audio">Kandinsky 4.0 V2A</a>: A video-to-audio model.</li>
+</ul>
+
+<br><br>
 
 
 ## Kandinsky 4.0 T2V (text-to-video)
