@@ -10,7 +10,7 @@
 </div>
 
 <div align="center">
-  <a>Kandinsky 4.0 Post</a> | <a href=https://ai-forever.github.io/Kandinsky-4/K40/>Project Page</a> | <a href=https://huggingface.co/spaces/ai-forever/kandinsky_4_flash>Generate</a> | <a>Technical Report</a> | <a href=https://github.com/ai-forever/Kandinsky-4>GitHub</a> | <a href=https://huggingface.co/ai-forever/kandinsky-4-t2v-flash> Kandinsky 4.0 T2V Flash HuggingFace</a> | <a href=https://huggingface.co/ai-forever/kandinsky4-Audio> Kandinsky 4.0 V2A HuggingFace</a>
+  <a>Kandinsky 4.0 Post</a> | <a href=https://ai-forever.github.io/Kandinsky-4/K40/>Project Page</a> | <a href=https://huggingface.co/spaces/ai-forever/kandinsky_4_flash>Generate</a> | <a>Technical Report</a> | <a href=https://github.com/ai-forever/Kandinsky-4>GitHub</a> | <a href=https://huggingface.co/ai-forever/kandinsky-4-t2v-flash> Kandinsky 4.0 T2V Flash HuggingFace</a> | <a href=https://huggingface.co/ai-forever/kandinsky-4-v2a> Kandinsky 4.0 V2A HuggingFace</a>
 </div>
 
 <div align="center">
@@ -211,7 +211,7 @@ from kandinsky4_video2audio.utils import load_video, create_video
 device='cuda:0'
 
 pipe = Video2AudioPipeline(
-    "ai-forever/kandinsky4-Audio",
+    "ai-forever/kandinsky-4-v2a",
     torch_dtype=torch.float16,
     device = device
 )
