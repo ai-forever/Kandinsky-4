@@ -122,9 +122,9 @@ images = pipe(
 Video("./test.mp4")
 ```
 
-Examples of usage and more detailed parameters description are in the [examples.ipynb](examples.ipynb) notebook.
+Please, refer to [examples.ipynb](examples.ipynb) notebook for more usage details.
 
-Make sure that you have weights folder with weights of all models.
+## Distributed Generation
 
 We also add distributed inference opportunity: [run_inference_distil.py](run_inference_distil.py)
 
