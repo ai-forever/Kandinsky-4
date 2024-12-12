@@ -7,18 +7,18 @@
 </div>
 
 <div align="center">
-  <a>Article</a> | <a href=https://ai-forever.github.io/Kandinsky-4/K40/>Project Page</a> | <a href=https://huggingface.co/spaces/ai-forever/kandinsky-4-t2v-flash>Generate🤗</a> | <a>Technical Report</a> | <a href=https://huggingface.co/ai-forever/kandinsky-4-t2v-flash> T2V Flash🤗</a> | <a href=https://huggingface.co/ai-forever/kandinsky-4-v2a> V2A🤗</a>
+  <a>Article</a> | <a href=https://ai-forever.github.io/Kandinsky-4/K40/>Project Page</a> | <a href=https://huggingface.co/spaces/ai-forever/kandinsky-4-t2v-flash>Generate🤗</a> | Technical Report (soon) | <a href=https://huggingface.co/ai-forever/kandinsky-4-t2v-flash> T2V Flash🤗</a> | <a href=https://huggingface.co/ai-forever/kandinsky-4-v2a> V2A🤗</a>
 </div>
 
 <h1>Kandinsky 4.0: A family of diffusion models for Video generation.</h1>
 
-In this repository, we provide a family of diffusion models to generate a video given a textual prompt or an image (<em>Coming Soon</em>), a distilled model for a faster generation and a video to audio generation model.
+In this repository, we provide a family of diffusion models to generate a video given a textual prompt or an image (<em>Coming Soon</em>), a distilled model for a faster generation and a video to audio generation model
 
 ## Content
 <ul>
   <li><a href="#kandinsky-40-t2v">Kandinsky 4.0 T2V</a>: A text-to-video model - <em>Coming Soon</em></li>
   <li><a href="#kandinsky-40-t2v-flash">Kandinsky 4.0 T2V Flash</a>: A distilled version of Kandinsky 4.0 T2V 480p.</li>
-  <li><a href="#kandinsky-40-i2v-image-to-video">Kandinsky 4.0 I2V</a>: An image-to-video - <em>Coming Soon</em> </li>
+  <li><a href="#kandinsky-40-i2v-image-to-video">Kandinsky 4.0 I2V</a>: An image-to-video model - <em>Coming Soon</em> </li>
   <li><a href="#kandinsky-40-v2a">Kandinsky 4.0 V2A</a>: A video-to-audio model.</li>
 </ul>
 
@@ -260,8 +260,8 @@ create_video(
 
 <B>Project Leader:</B> Denis Dimitrov. </br>
 <B>Scientific Consultants:</B> Andrey Kuznetsov, Sergey Markov.</br>
-<B>Training Pipeline & Model Pretrain & Model Distillation:</B> Vladimir Arkhipkin, Novitskiy Lev, Maria Kovaleva. </br>
-<B>Model Architecture:</B> Vladimir Arkhipkin, Maria Kovaleva, Zein Shaheen, Arsen Kuzhamuratov, Nikolay Gerasimenko, Mikhail Zhirnov, Alexandr Gambashidze, Konstantin Sobolev.</br>
+<B>Training Pipeline & Model Pretrain & Model Distillation:</B> Vladimir Arkhipkin, Lev Novitskiy, Maria Kovaleva. </br>
+<B>Model Architecture:</B> Vladimir Arkhipkin, Maria Kovaleva, Zein Shaheen, Arsen Kuzhamuratov, Nikolay Gerasimenko, Mikhail Zhirnov, Alexander Gambashidze, Konstantin Sobolev.</br>
 <B>Data Pipeline:</B> Ivan Kirillov, Andrei Shutkin, Kirill Chernishev, Julia Agafonova, Elizaveta Dakhova, Denis Parkhomenko.</br>
 <B>Video-to-audio model:</B> Zein Shaheen, Arseniy Shakhmatov, Denis Parkhomenko.</br>
 <B>Quality Assessment:</B> Nikolay Gerasimenko, Anna Averchenkova.</br>
