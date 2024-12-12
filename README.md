@@ -212,24 +212,6 @@ python run_inference_distil.py
 
 ## Kandinsky 4.0 V2A (video-to-audio)
 
-### Examples:
-
-<table border="0" style="width: 200; text-align: left; margin-top: 20px;">
-  <tr>
-      <td>
-          <video src="https://github.com/user-attachments/assets/6bb5cb9c-00b4-4d7a-9616-a1debf456e02" width=200 controls autoplay loop playsinline></video>
-      </td>
-      <td>
-          <video src="https://github.com/user-attachments/assets/1eb223af-c743-4948-9532-9e6e097b979a" width=200 controls autoplay loop playsinline></video>
-      </td>
-      <td>
-          <video src="https://github.com/user-attachments/assets/cf22eeee-67aa-4b32-bea8-23d6954852a5" width=200 controls autoplay loop playsinline></video>
-      </td>
-  </tr>
-</table>
-
-
-### Description:
 We also release generation pipeline able to produce audio for Kandinsky 4.0 video outputs. 
 ![pipeline-audio](https://github.com/user-attachments/assets/f5d6fafb-6e0a-4362-b6e0-63c51c79bfc2)
 
@@ -280,6 +262,21 @@ create_video(
 )
 ```
 
+### Examples:
+
+<table border="0" style="width: 200; text-align: left; margin-top: 20px;">
+  <tr>
+      <td>
+          <video src="https://github.com/user-attachments/assets/6bb5cb9c-00b4-4d7a-9616-a1debf456e02" width=200 controls autoplay loop playsinline></video>
+      </td>
+      <td>
+          <video src="https://github.com/user-attachments/assets/1eb223af-c743-4948-9532-9e6e097b979a" width=200 controls autoplay loop playsinline></video>
+      </td>
+      <td>
+          <video src="https://github.com/user-attachments/assets/cf22eeee-67aa-4b32-bea8-23d6954852a5" width=200 controls autoplay loop playsinline></video>
+      </td>
+  </tr>
+</table>
 
 # Authors
 
