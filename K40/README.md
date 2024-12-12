@@ -1,1 +1,1 @@
-Project page for kandinsky Video 1.1
+Project page for Kandinsky 4.0
