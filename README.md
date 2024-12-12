@@ -22,7 +22,26 @@
 
 ### Examples:
 
-NEEDED (from PP)
+<table border="0" style="width: 200; text-align: left; margin-top: 20px;">
+  <tr>
+      <td>
+          <video src="assets/generation_examples/videos/T2V/IMG_9669.MP4" width=200 controls autoplay loop></video>
+      </td>
+      <td>
+          <video src="assets/generation_examples/videos/T2V/IMG_9668.MP4" width=200 controls autoplay loop></video>
+      </td>
+      <td>
+          <video src="assets/generation_examples/videos/T2V/IMG_9670.MP4" width=200 controls autoplay loop></video>
+      </td>
+      <td>
+          <video src="assets/generation_examples/videos/T2V/IMG_9671.MP4" width=200 controls autoplay loop></video>
+      </td>
+      <td>
+          <video src="assets/generation_examples/videos/T2V/IMG_9672.MP4" width=200 controls autoplay loop></video>
+      </td>
+  </tr>
+
+</table>
 
 ## Kandinsky 4.0 I2V (image-to-video)
 
@@ -35,8 +54,6 @@ NEEDED (from PP)
 ## Kandinsky 4.0 T2V Flash (distilled version of Kandinsky 4.0 T2V)
 
 ### Examples:
-
-NEED TO BE UPDATED!
 
 <br><br>
 
