@@ -46,39 +46,13 @@ NEED TO BE UPDATED!
           <video src="https://github.com/user-attachments/assets/c52f5734-79de-4d09-b738-0ad09ffda25f" width=200 controls autoplay loop></video>
       </td>
       <td>
-          <video src="https://github.com/user-attachments/assets/e3a8f092-469f-4f97-adac-0675a205a664" width=200 controls autoplay loop></video>
-      </td>
-      <td>
-          <video src="https://github.com/user-attachments/assets/9131d737-e60e-4a49-ba22-498619071e82" width=200 controls autoplay loop></video>
-      </td>
-  </tr>
-
-  <tr>
-      <td>
-          <video src="https://github.com/user-attachments/assets/9aa4850c-ed1f-4979-8476-d41ff2eb3835" width=200 controls autoplay loop></video>
-      </td>
-      <td>
-          <video src="https://github.com/user-attachments/assets/8beb79ba-941f-4c3f-a937-53870911fe93" width=200 controls autoplay loop></video>
-      </td>
-      <td>
-          <video src="https://github.com/user-attachments/assets/9fcc7668-2ecb-4621-8c58-472fdb6532f3" width=200 controls autoplay loop></video>
-      </td>
-  </tr>
-
-
-  <tr>
-      <td>
           <video src="https://github.com/user-attachments/assets/42fa8321-9b03-4864-84bc-c4181d17f49e" width=200 controls autoplay loop></video>
       </td>
       <td>
-          <video src="https://github.com/user-attachments/assets/3a0f5674-60a6-4fc5-9d37-be6d57150d54" width=200 controls autoplay loop></video>
-      </td>
-      <td>
-          <video src="https://github.com/user-attachments/assets/d3dabeeb-3b88-4d56-8700-1cb2a374fdb2" width=200 controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/9aa4850c-ed1f-4979-8476-d41ff2eb3835" width=200 controls autoplay loop></video>
       </td>
   </tr>
 
-  
 </table>
 
 ### Description:
