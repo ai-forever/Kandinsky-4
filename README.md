@@ -47,6 +47,16 @@
 
 </table>
 
+<table border="0" style="width: 200; text-align: left; margin-top: 20px;">
+  <tr>
+      <td>
+          <video src="https://github.com/user-attachments/assets/9bc737bc-9a58-46a1-b4d0-95df0a34ff88" width=200 controls autoplay loop></video>
+      </td>
+      <td>
+          <video src="https://github.com/user-attachments/assets/c80362fd-e173-44c2-a774-6f36810be442" width=200 controls autoplay loop></video>
+      </td>
+  </tr>
+
 ## Kandinsky 4.0 T2V Flash (distilled version of Kandinsky 4.0 T2V 480p)
 
 ### Examples:
