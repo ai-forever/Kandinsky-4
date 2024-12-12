@@ -176,8 +176,6 @@ python -m torch.distributed.launch --nnodes $NUMBER_OF_NODES --nproc-per-node $N
 
 </table>
 
-### Examples:
-
 <table border="0" style="width: 200; text-align: left; margin-top: 20px;">
   <tr>
       <td>
