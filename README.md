@@ -88,16 +88,12 @@
 
 ## Kandinsky 4.0 T2V Flash
 
-Kandinsky 4.0 is a text-to-video generation model leveraging latent diffusion to produce videos in both 480p and HD resolutions. We also introduce Kandinsky 4 Flash, a distilled version of the model capable of generating 12-second 480p videos in just 11 seconds using a single NVIDIA H100 GPU. The pipeline integrates a 3D causal [CogVideoX](https://arxiv.org/pdf/2408.06072) VAE, the [T5-V1.1-XXL](https://huggingface.co/google/t5-v1_1-xxl) text embedder, and our custom-trained MMDiT-like transformer model.
+Kandinsky 4.0 is a text-to-video generation model leveraging latent diffusion to produce videos in both 480p and HD resolutions. We also introduce Kandinsky 4 Flash, a distilled version of the model capable of generating 12-second 480p videos in just 11 seconds using a single NVIDIA H100 GPU. The pipeline integrates a 3D causal [CogVideoX](https://arxiv.org/pdf/2408.06072) VAE, the [T5-V1.1-XXL](https://huggingface.co/google/t5-v1_1-xxl) text embedder, and our custom-trained MMDiT-like transformer model. Kandinsky 4.0 Flash was trained using the Latent Adversarial Diffusion Distillation (LADD) approach, proposed for distilling image generation models and first described in the [article](https://arxiv.org/pdf/2403.12015) from Stability AI.
 
+The following scheme describes the overall generation pipeline:
 <div align="center">
   <img src="assets/pipeline.png" height=500>
 </div>
-
-A serious problem for all diffusion models, and especially video generation models, is the generation speed. To solve this problem, we used the Latent Adversarial Diffusion Distillation (LADD) approach, proposed for distilling image generation models and first described in the [article](https://arxiv.org/pdf/2403.12015) from Stability AI and tested by us when training the [Kandinsky 3.1](https://github.com/ai-forever/Kandinsky-3) image generation model. The distillation pipeline itself involves additional training of the diffusion model in the GAN pipeline, i.e. joint training of the diffusion generator with the discriminator.
-
-<img src="assets/LADD.png">
-
 
 ### Architecture
 
