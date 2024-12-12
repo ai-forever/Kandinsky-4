@@ -32,7 +32,7 @@ NEEDED (from PP)
 
 NEEDED (from PP)
 
-## Kandinsky 4.0 T2V Flash (distilled version of Kandinsky 4.0 T2V)
+## Kandinsky 4.0 T2V Flash (distilled version from Kandinsky 4.0 T2V)
 
 ### Examples:
 
