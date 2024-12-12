@@ -31,13 +31,13 @@
           <video src="https://github.com/user-attachments/assets/fc7eb771-dd5e-4a5c-815a-6657f44b8e22" width=200 controls autoplay loop></video>
       </td>
       <td>
-          <video src="assets/generation_examples/videos/T2V/IMG_9670.MP4" width=200 controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/300af939-7516-4521-8eeb-6a660b70fb85" width=200 controls autoplay loop></video>
       </td>
       <td>
-          <video src="assets/generation_examples/videos/T2V/IMG_9671.MP4" width=200 controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/8ca68ad1-262c-47b6-b7c6-68e1163f869c" width=200 controls autoplay loop></video>
       </td>
       <td>
-          <video src="assets/generation_examples/videos/T2V/IMG_9672.MP4" width=200 controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/fe99f74d-7ea9-41e1-9bb4-45ab258eb254" width=200 controls autoplay loop></video>
       </td>
   </tr>
 
