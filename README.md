@@ -6,7 +6,7 @@
 </div>
 
 <div align="center">
-  <a>Kandinsky 4.0 Post</a> | <a>Project Page</a> | <a>Generate</a> | <a>Telegram-bot</a> | <a>Technical Report</a> | <a href=https://github.com/ai-forever/Kandinsky-4>GitHub</a> | <a href=https://huggingface.co/ai-forever/kandinsky4>HuggingFace</a>
+  <a>Kandinsky 4.0 Post</a> | <a>Project Page</a> | <a>Generate</a> | <a>Telegram-bot</a> | <a>Technical Report</a> | <a href=https://github.com/ai-forever/Kandinsky-4>GitHub</a> | <a href=https://huggingface.co/ai-forever/kandinsky-4-t2v-flash>HuggingFace</a>
 </div>
 
 <div align="center">
