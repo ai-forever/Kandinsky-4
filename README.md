@@ -20,19 +20,23 @@
 
 ### Kandinsky 4.0 T2V (text-to-video)
 
-Open source: SOON 🤗
+**Open source: SOON** 🤗
 
-examples from PP needed
+#### Examples:
+
+NEEDED (from PP)
 
 ### Kandinsky 4.0 I2V (image-to-video)
 
-Open source: SOON 🤗
+**Open source: SOON** 🤗
 
-examples from PP needed
+#### Examples:
+
+NEEDED (from PP)
 
 ### Kandinsky 4.0 T2V Flash (distilled version of Kandinsky 4.0 T2V)
 
-## Examples:
+#### Examples:
 
 NEED TO BE UPDATED!
 
