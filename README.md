@@ -34,7 +34,7 @@
           <video src="https://github.com/user-attachments/assets/300af939-7516-4521-8eeb-6a660b70fb85" width=200 controls autoplay loop></video>
       </td>
       <td>
-          <video src="https://github.com/user-attachments/assets/8ca68ad1-262c-47b6-b7c6-68e1163f869c" width=200 controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/13a64f44-8d81-4760-8a69-dcd483ee62f2" width=200 controls autoplay loop></video>
       </td>
       <td>
           <video src="https://github.com/user-attachments/assets/fe99f74d-7ea9-41e1-9bb4-45ab258eb254" width=200 controls autoplay loop></video>
