@@ -256,34 +256,11 @@ create_video(
 
 # Authors
 
-### Project Leader 
-
-Denis Dimitrov
-
-### Scientific Consultant
-
-Andrey Kuznetsov, Sergey Markov
-
-### Training Pipeline & Model Pretrain & Model Distillation
-
-Vladimir Arkhipkin, Novitskiy Lev, Maria Kovaleva
-
-### Model Architecture
-
-Vladimir Arkhipkin, Maria Kovaleva, Zein Shaheen, Arsen Kuzhamuratov, Nikolay Gerasimenko, Mikhail Zhirnov, Alexandr Gambashidze, Konstantin Sobolev
-
-### Data Pipeline
-
-Ivan Kirillov, Andrei Shutkin, Kirill Chernishev, Julia Agafonova, Denis Parkhomenko
-
-### Video-to-audio model
-
-Zein Shaheen, Arseniy Shakhmatov, Denis Parkhomenko
-
-### Quality Assessment
-
-Nikolay Gerasimenko, Anna Averchenkova
-
-### Other Contributors
-
-Viacheslav Vasilev, Andrei Filatov, Gregory Leleytner
+<B>Project Leader:</B> Denis Dimitrov. </br>
+<B>Scientific Consultants:</B> Andrey Kuznetsov, Sergey Markov.</br>
+<B>Training Pipeline & Model Pretrain & Model Distillation:</B> Vladimir Arkhipkin, Novitskiy Lev, Maria Kovaleva. </br>
+<B>Model Architecture:</B> Vladimir Arkhipkin, Maria Kovaleva, Zein Shaheen, Arsen Kuzhamuratov, Nikolay Gerasimenko, Mikhail Zhirnov, Alexandr Gambashidze, Konstantin Sobolev.</br>
+<B>Data Pipeline:</B>Ivan Kirillov, Andrei Shutkin, Kirill Chernishev, Julia Agafonova, Denis Parkhomenko.</br>
+<B>Video-to-audio model:</B>Zein Shaheen, Arseniy Shakhmatov, Denis Parkhomenko.</br>
+<B>Quality Assessment:</B>Nikolay Gerasimenko, Anna Averchenkova.</br>
+<B>Other Contributors:</B>Viacheslav Vasilev, Andrei Filatov, Gregory Leleytner.</br>
