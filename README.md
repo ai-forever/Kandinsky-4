@@ -22,7 +22,7 @@
 
 ### Examples:
 
-<table border="0" style="width: 100; text-align: left; margin-top: 20px;">
+<table border="0" style="width: 200; text-align: left; margin-top: 20px;">
   <tr>
       <td>
           <video src="https://github.com/user-attachments/assets/b324ee89-3deb-49e7-a506-92f67cd7dc54" width=200 controls autoplay loop></video>
@@ -49,7 +49,7 @@
 
 ### Examples:
 
-<table border="0" style="width: 200; text-align: left; margin-top: 20px;">
+<table border="0" style="width: 100; text-align: left; margin-top: 20px;">
   <tr>
       <td>
           <img src="assets/generation_examples/I2V/IMG_9680.jpg">
@@ -58,7 +58,7 @@
           <video src="https://github.com/user-attachments/assets/e17f4384-9f81-4a75-a3b8-fe2431c30fac" width=200 controls autoplay loop></video>
       </td>
   </tr>
-  <table border="0" style="width: 200; text-align: left; margin-top: 20px;">
+  <table border="0" style="width: 100; text-align: left; margin-top: 20px;">
   <tr>
       <td>
           <img src="assets/generation_examples/I2V/IMG_9677.jpg">
@@ -67,7 +67,7 @@
           <video src="https://github.com/user-attachments/assets/2116ace3-3edf-434d-a425-b13309a35bb7" width=200 controls autoplay loop></video>
       </td>
   </tr>
-  <table border="0" style="width: 200; text-align: left; margin-top: 20px;">
+  <table border="0" style="width: 100; text-align: left; margin-top: 20px;">
   <tr>
       <td>
           <img src="assets/generation_examples/I2V/IMG_9675.jpg">
