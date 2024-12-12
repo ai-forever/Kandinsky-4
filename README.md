@@ -16,27 +16,25 @@
 <br><br><br><br>
 
 
-## Text-to-video and image-to-video
-
-### Kandinsky 4.0 T2V (text-to-video)
+## Kandinsky 4.0 T2V (text-to-video)
 
 **Open source: SOON** 🤗
 
-#### Examples:
+### Examples:
 
 NEEDED (from PP)
 
-### Kandinsky 4.0 I2V (image-to-video)
+## Kandinsky 4.0 I2V (image-to-video)
 
 **Open source: SOON** 🤗
 
-#### Examples:
+### Examples:
 
 NEEDED (from PP)
 
-### Kandinsky 4.0 T2V Flash (distilled version of Kandinsky 4.0 T2V)
+## Kandinsky 4.0 T2V Flash (distilled version of Kandinsky 4.0 T2V)
 
-#### Examples:
+### Examples:
 
 NEED TO BE UPDATED!
 
@@ -83,7 +81,7 @@ NEED TO BE UPDATED!
   
 </table>
 
-## Description:
+### Description:
 
 Kandinsky 4.0 is a text-to-video generation model based on latent diffusion for 480p and HD resolutions. Here we present distiled version of this model **Kandisnly 4 flash**, that can generate **12 second videos** in 480p resolution in **11 seconds** on a single NVIDIA H100 gpu. The pipeline consist of 3D causal [CogVideoX](https://arxiv.org/pdf/2408.06072) VAE, text embedder [T5-V1.1-XXL](https://huggingface.co/google/t5-v1_1-xxl) and our trained MMDiT-like transformer model.
 
@@ -94,7 +92,7 @@ A serious problem for all diffusion models, and especially video generation mode
 <img src="assets/LADD.png">
 
 
-## Architecture
+### Architecture
 
 For training Kandinsky 4 Flash we used the following architecture of diffusion transformer, based on MMDiT proposed in [Stable Diffusion 3](https://arxiv.org/pdf/2403.03206).
 
@@ -105,9 +103,8 @@ For training flash version we used the following architecture of discriminator. 
 <img src="assets/discriminator.png" width="50%"> <img src="assets/discriminator_head.png" width="30%">
 
 
-## How to use:
+### How to use Kandinsky 4.0 T2V Flash:
 
-### 1. Text-to-Video
 ```python
 import torch
 from IPython.display import Video
@@ -152,9 +149,7 @@ To run this examples from terminal without tensor parallel:
 python run_inference_distil.py
 ```
 
-## Video-to-audio
-
-### 2. Kandinsky 4.0 V2A (video-to-audio)
+## Kandinsky 4.0 V2A (video-to-audio)
 
 ![pipeline-audio](https://github.com/user-attachments/assets/f5d6fafb-6e0a-4362-b6e0-63c51c79bfc2)
 
@@ -223,3 +218,26 @@ create_video(
 
 # Authors
 
+**Project Leader**
+Denis Dimitrov
+
+**Scientific Consultant**
+Andrey Kuznetsov, Sergey Markov
+
+**Training Pipeline & Model Pretrain & Model Distillation**
+Vladimir Arkhipkin, Novitkiy Lev, Maria Kovaleva
+
+**Model Architecture**
+Vladimir Arkhipkin, Maria Kovaleva, Zein Shaheen, Arsen Kuzhamuratov, Nikolay Gerasimenko, Mikhail Zhirnov, Alexandr Gambashidze, Konstantin Sobolev
+
+**Data Pipeline**
+Ivan Kirillov, Andrei Shutkin, Kirill Chernishev, Julia Agafonova, Denis Parkhomenko
+
+**Audio Model**
+Zein Shaheen, Arseniy Shakhmatov, Denis Parkhomenko
+
+**Quality Assessment**
+Nikolay Gerasimenko, Anna Averchenkova
+
+**Other Contributors**
+Viacheslav Vasilev, Andrei Filatov, Gregory Leleytner
