@@ -20,9 +20,11 @@
 
 ### Text-to-video (Kandinsky 4.0 T2V)
 open source SOON
+examples from PP needed
 
 ### Image-to-video (Kandinsky 4.0 I2V)
 open source SOON
+examples from PP needed
 
 ### Text-to-video Distilled (Kandinsky 4.0 T2V Flash)
 
