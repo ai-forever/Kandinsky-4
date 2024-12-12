@@ -33,7 +33,7 @@ from kandinsky4_video2audio.utils import load_video, create_video
 device='cuda:0'
 
 pipe = Video2AudioPipeline(
-    "ai-forever/kandinsky4-Audio",
+    "ai-forever/kandinsky-4-v2a",
     torch_dtype=torch.float16,
     device = device
 )
