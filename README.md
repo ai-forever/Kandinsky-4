@@ -238,7 +238,7 @@ Vladimir Arkhipkin, Maria Kovaleva, Zein Shaheen, Arsen Kuzhamuratov, Nikolay Ge
 
 Ivan Kirillov, Andrei Shutkin, Kirill Chernishev, Julia Agafonova, Denis Parkhomenko
 
-### Video-to-audio Model
+### Video-to-audio model
 
 Zein Shaheen, Arseniy Shakhmatov, Denis Parkhomenko
 
