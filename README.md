@@ -56,6 +56,16 @@
           <video src="https://github.com/user-attachments/assets/c80362fd-e173-44c2-a774-6f36810be442" width=200 controls autoplay loop></video>
       </td>
   </tr>
+  <tr>
+      <td>
+          <video src="https://github.com/user-attachments/assets/98012d67-5aa3-492a-82d9-9cb72f3c3cf8" width=200 controls autoplay loop></video>
+      </td>
+      <td>
+          <video src="https://github.com/user-attachments/assets/c1e11759-3e15-415d-b9e8-4995b44e9194" width=200 controls autoplay loop></video>
+      </td>
+  </tr>
+
+</table>
 
 ## Kandinsky 4.0 T2V Flash (distilled version of Kandinsky 4.0 T2V 480p)
 
