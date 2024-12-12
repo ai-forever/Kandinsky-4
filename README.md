@@ -19,12 +19,10 @@
 ## Text-to-video and image-to-video
 
 ### Text-to-video (Kandinsky 4.0 T2V)
-
-    open source SOON
+open source SOON
 
 ### Image-to-video (Kandinsky 4.0 I2V)
-
-    open source SOON
+open source SOON
 
 ### Text-to-video Distilled (Kandinsky 4.0 T2V Flash)
 
