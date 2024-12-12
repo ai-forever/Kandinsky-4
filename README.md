@@ -79,7 +79,7 @@
 
 </table>
 
-## Kandinsky 4.0 T2V Flash (distilled version of Kandinsky 4.0 T2V)
+## Kandinsky 4.0 T2V Flash (distilled version of Kandinsky 4.0 T2V 480p)
 
 ### Examples:
 
