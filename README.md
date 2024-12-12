@@ -256,6 +256,17 @@ create_video(
   </tr>
 </table>
 
+## BibTeX
+If you use our work in your research, please cite our publication:
+```
+@article{arkhipkin2023fusionframes,
+  title     = {FusionFrames: Efficient Architectural Aspects for Text-to-Video Generation Pipeline},
+  author    = {Arkhipkin, Vladimir and Shaheen, Zein and Vasilev, Viacheslav and Dakhova, Elizaveta and Kuznetsov, Andrey and Dimitrov, Denis},
+  journal   = {arXiv preprint arXiv:2311.13073},
+  year      = {2023}, 
+}
+```
+
 # Authors
 
 <B>Project Leader:</B> Denis Dimitrov. </br>
