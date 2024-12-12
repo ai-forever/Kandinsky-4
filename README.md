@@ -16,8 +16,8 @@ In this repository, we provide a family of diffusion models to generate a video 
 
 ## Project Updates
 
-- 🔥 **Source**: ```2024/12/13```: We have open-sourced `kandinsky-4.0-t2v-flash` a distilled version of `Kandinsky-4.0-t2v` text-to-video generation model.
-- 🔥 **Source**: ```2024/12/13```: We have open-sourced `kandinsky-4.0-v2a` a video-to-audio generation model. 
+- 🔥 **Source**: ```2024/12/13```: We have open-sourced `Kandinsky 4.0 T2V Flash` a distilled version of `Kandinsky 4.0 T2V` text-to-video generation model.
+- 🔥 **Source**: ```2024/12/13```: We have open-sourced `Kandinsky 4.0 V2A` a video-to-audio generation model. 
 
 ## Table of contents
 <ul>
@@ -200,7 +200,7 @@ python -m torch.distributed.launch --nnodes $NUMBER_OF_NODES --nproc-per-node $N
 Video to Audio pipeline consists of a visual encoder, a text encoder, UNet diffusion model to generate spectrogram and Griffin-lim algorithm to convert spectrogram into audio. 
 Visual and text encoders share the same multimodal visual language decoder ([cogvlm2-video-llama3-chat](link)). 
 
-Our UNet diffusion model is a finetune of the music generation model [riffusion](https://huggingface.co/riffusion/riffusion-model-v1). We made modifications in the architecture to condition on video frames and improve the synchronization between video and audio. Also, we replace the text encoder with the decoder of [cogvlm2-video-llama3-chat](link).
+Our UNet diffusion model is a finetune of the music generation model [riffusion](https://huggingface.co/riffusion/riffusion-model-v1). We made modifications in the architecture to condition on video frames and improve the synchronization between video and audio. Also, we replace the text encoder with the decoder of [cogvlm2-video-llama3-chat](https://huggingface.co/THUDM/cogvlm2-video-llama3-chat).
 
 ![pipeline-audio](https://github.com/user-attachments/assets/f5d6fafb-6e0a-4362-b6e0-63c51c79bfc2)
 
@@ -275,7 +275,7 @@ If you use our work in your research, please cite our publication:
 # Authors
 
 <B>Project Leader:</B> Denis Dimitrov. </br>
-<B>Scientific Consultants:</B> Andrey Kuznetsov, Sergey Markov.</br>
+<B>Scientific Advisors:</B> Andrey Kuznetsov, Sergey Markov.</br>
 <B>Training Pipeline & Model Pretrain & Model Distillation:</B> Vladimir Arkhipkin, Lev Novitskiy, Maria Kovaleva. </br>
 <B>Model Architecture:</B> Vladimir Arkhipkin, Maria Kovaleva, Zein Shaheen, Arsen Kuzhamuratov, Nikolay Gerasimenko, Mikhail Zhirnov, Alexander Gambashidze, Konstantin Sobolev.</br>
 <B>Data Pipeline:</B> Ivan Kirillov, Andrei Shutkin, Kirill Chernishev, Julia Agafonova, Elizaveta Dakhova, Denis Parkhomenko.</br>
