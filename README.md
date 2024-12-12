@@ -28,7 +28,7 @@
           <video src="https://github.com/user-attachments/assets/d8c6ed5b-5bbe-418c-a54d-c017669ae881" width=200 controls autoplay loop></video>
       </td>
       <td>
-          <video src="assets/generation_examples/videos/T2V/IMG_9668.MP4" width=200 controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/fc7eb771-dd5e-4a5c-815a-6657f44b8e22" width=200 controls autoplay loop></video>
       </td>
       <td>
           <video src="assets/generation_examples/videos/T2V/IMG_9670.MP4" width=200 controls autoplay loop></video>
