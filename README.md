@@ -15,7 +15,7 @@
 ## Content
 <ul>
   <li><a href="#kandinsky-40-t2v">Kandinsky 4.0 T2V</a>: A text-to-video model - <em>Coming Soon</em></li>
-  <li><a href="#kandinsky-40-t2v-flash-distilled-version-of-kandinsky-40-t2v-480p">Kandinsky 4.0 T2V Flash</a>: A distilled version of Kandinsky 4.0 T2V 480p.</li>
+  <li><a href="#kandinsky-40-t2v-flash">Kandinsky 4.0 T2V Flash</a>: A distilled version of Kandinsky 4.0 T2V 480p.</li>
   <li><a href="#kandinsky-40-i2v-image-to-video">Kandinsky 4.0 I2V</a>: An image-to-video - <em>Coming Soon</em> </li>
   <li><a href="#kandinsky-40-v2a-video-to-audio">Kandinsky 4.0 V2A</a>: A video-to-audio model.</li>
 </ul>
@@ -86,24 +86,7 @@
 
 </table>
 
-## Kandinsky 4.0 T2V Flash (distilled version of Kandinsky 4.0 T2V 480p)
-
-### Examples:
-
-<table border="0" style="width: 200; text-align: left; margin-top: 20px;">
-  <tr>
-      <td>
-          <video src="https://github.com/user-attachments/assets/c52f5734-79de-4d09-b738-0ad09ffda25f" width=200 controls autoplay loop></video>
-      </td>
-      <td>
-          <video src="https://github.com/user-attachments/assets/a0218156-3bc2-4464-8c06-84aac8c75927" width=200 controls autoplay loop></video>
-      </td>
-      <td>
-          <video src="https://github.com/user-attachments/assets/91c6ee64-84a7-45a4-9e08-7eceacb8518a" width=200 controls autoplay loop></video>
-      </td>
-  </tr>
-
-</table>
+## Kandinsky 4.0 T2V Flash
 
 ### Description:
 
@@ -208,6 +191,24 @@ python run_inference_distil.py
   </tr>
 
 </table>
+
+### Examples:
+
+<table border="0" style="width: 200; text-align: left; margin-top: 20px;">
+  <tr>
+      <td>
+          <video src="https://github.com/user-attachments/assets/c52f5734-79de-4d09-b738-0ad09ffda25f" width=200 controls autoplay loop></video>
+      </td>
+      <td>
+          <video src="https://github.com/user-attachments/assets/a0218156-3bc2-4464-8c06-84aac8c75927" width=200 controls autoplay loop></video>
+      </td>
+      <td>
+          <video src="https://github.com/user-attachments/assets/91c6ee64-84a7-45a4-9e08-7eceacb8518a" width=200 controls autoplay loop></video>
+      </td>
+  </tr>
+
+</table>
+
 
 ## Kandinsky 4.0 V2A (video-to-audio)
 
