@@ -52,7 +52,7 @@
 <table border="0" style="width: 200; text-align: left; margin-top: 20px;">
   <tr>
       <td>
-          <video src="" width=200 controls autoplay loop></video>
+          <img src="assets/generation_examples/I2V/IMG_9680.jpg">
       </td>
       <td>
           <video src="https://github.com/user-attachments/assets/e17f4384-9f81-4a75-a3b8-fe2431c30fac" width=200 controls autoplay loop></video>
@@ -61,7 +61,7 @@
   <table border="0" style="width: 200; text-align: left; margin-top: 20px;">
   <tr>
       <td>
-          <video src="" width=200 controls autoplay loop></video>
+          <img src="assets/generation_examples/I2V/IMG_9677.jpg">
       </td>
       <td>
           <video src="https://github.com/user-attachments/assets/2116ace3-3edf-434d-a425-b13309a35bb7" width=200 controls autoplay loop></video>
@@ -70,7 +70,7 @@
   <table border="0" style="width: 200; text-align: left; margin-top: 20px;">
   <tr>
       <td>
-          <video src="" width=200 controls autoplay loop></video>
+          <img src="assets/generation_examples/I2V/IMG_9675.jpg">
       </td>
       <td>
           <video src="https://github.com/user-attachments/assets/dbfa54ac-225d-4d30-94c1-eb371a5c6031" width=200 controls autoplay loop></video>
