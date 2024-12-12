@@ -126,11 +126,12 @@ Please, refer to [examples.ipynb](examples.ipynb) notebook for more usage detail
 
 ### Distributed Inference
 
-We also introduce the capability to perform inference in a distributed way
+For a faster inference, we also provide the capability to perform inference in a distributed way
 ```
-python -m torch.distributed.launch --nnodes n --nproc-per-node m run_inference_distil.py
+NUMBER_OF_NODES=1
+NUMBER_OF_DEVICES_PER_NODE=8
+python -m torch.distributed.launch --nnodes $NUMBER_OF_NODES --nproc-per-node $NUMBER_OF_DEVICES_PER_NODE run_inference_distil.py
 ```
-where n is a number of nodes you have and m is a number of gpus on these nodes. 
 
 ## Kandinsky 4.0 I2V (image-to-video)
 
