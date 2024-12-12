@@ -16,7 +16,7 @@ In this repository, we provide a family of diffusion models to generate a video 
 
 ## Project Updates
 
-- 🔥 **Source**: ```2024/12/13```: We have open-sourced `kandinsky-40-t2v-flash` a distilled version for text-to-video generation model.
+- 🔥 **Source**: ```2024/12/13```: We have open-sourced `kandinsky-40-t2v-flash` a distilled version of `Kandinsky-40-t2v` text-to-video generation model.
 - 🔥 **Source**: ```2024/12/13```: We have open-sourced `kandinsky-40-v2a` a video-to-audio generation model. 
 
 ## Table of contents
