@@ -95,18 +95,7 @@ The following scheme describes the overall generation pipeline:
   <img src="assets/pipeline.png" height=500>
 </div>
 
-### Architecture
-
-For training Kandinsky 4 Flash we used the following architecture of diffusion transformer, based on MMDiT proposed in [Stable Diffusion 3](https://arxiv.org/pdf/2403.03206).
-
-<img src="assets/MMDiT1.png" width="50%"> <img src="assets/MMDiT_block1.png" width="30%">
-
-For training flash version we used the following architecture of discriminator. Discriminator head structure resembles half of an MMDiT block.
-
-<img src="assets/discriminator.png" width="50%"> <img src="assets/discriminator_head.png" width="30%">
-
-
-### How to use Kandinsky 4.0 T2V Flash:
+### Inference
 
 ```python
 import torch
