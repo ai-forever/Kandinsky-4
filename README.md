@@ -307,7 +307,7 @@ Zein Shaheen, Arseniy Shakhmatov, Denis Parkhomenko
 
 ### Quality Assessment
 
-Nikolay Gerasimenko, Anna Averchenkova
+Nikolay Gerasimenko, Anna Averchenkova, Victor Panshin, Vladislav Veselov, Pavel Perminov, Vladislav Rodionov, Sergey Skachkov, Stepan Ponomarev
 
 ### Other Contributors
 
