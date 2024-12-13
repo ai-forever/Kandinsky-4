@@ -61,7 +61,7 @@
           <video src="https://github.com/user-attachments/assets/98012d67-5aa3-492a-82d9-9cb72f3c3cf8" width=200 controls autoplay loop></video>
       </td>
       <td>
-          <video src="https://github.com/user-attachments/assets/c1e11759-3e15-415d-b9e8-4995b44e9194" width=200 controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/5418ee18-fec4-4a0b-880b-86d34f350031" width=200 controls autoplay loop></video>
       </td>
   </tr>
 
