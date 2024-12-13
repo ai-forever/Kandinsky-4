@@ -7,7 +7,7 @@
 </div>
 
 <div align="center">
-  <a>Article</a> | <a href=https://ai-forever.github.io/Kandinsky-4/K40/>Project Page</a> | <a href=https://huggingface.co/spaces/ai-forever/kandinsky-4-t2v-flash>Generate🤗</a> | Technical Report (soon) | <a href=https://huggingface.co/ai-forever/kandinsky-4-t2v-flash> T2V Flash🤗</a> | <a href=https://huggingface.co/ai-forever/kandinsky-4-v2a> V2A🤗</a>
+  <a href="https://habr.com/ru/companies/sberbank/articles/866156">Article</a> | <a href=https://ai-forever.github.io/Kandinsky-4/K40/>Project Page</a> | <a href=https://huggingface.co/spaces/ai-forever/kandinsky-4-t2v-flash>Generate🤗</a> | Technical Report (soon) | <a href=https://huggingface.co/ai-forever/kandinsky-4-t2v-flash> T2V Flash🤗</a> | <a href=https://huggingface.co/ai-forever/kandinsky-4-v2a> V2A🤗</a>
 </div>
 
 <h1>Kandinsky 4.0: A family of diffusion models for Video generation</h1>
@@ -278,5 +278,5 @@ If you use our work in your research, please cite our publication:
 <B>Model Architecture:</B> Vladimir Arkhipkin, Maria Kovaleva, Zein Shaheen, Arsen Kuzhamuratov, Nikolay Gerasimenko, Mikhail Zhirnov, Alexander Gambashidze, Konstantin Sobolev.</br>
 <B>Data Pipeline:</B> Ivan Kirillov, Andrei Shutkin, Kirill Chernishev, Julia Agafonova, Elizaveta Dakhova, Denis Parkhomenko.</br>
 <B>Video-to-audio model:</B> Zein Shaheen, Arseniy Shakhmatov, Denis Parkhomenko.</br>
-<B>Quality Assessment:</B> Nikolay Gerasimenko, Anna Averchenkova.</br>
+<B>Quality Assessment:</B> Nikolay Gerasimenko, Anna Averchenkova, Victor Panshin, Vladislav Veselov, Pavel Perminov, Vladislav Rodionov, Sergey Skachkov, Stepan Ponomarev.</br>
 <B>Other Contributors:</B> Viacheslav Vasilev, Andrei Filatov, Gregory Leleytner.</br>
