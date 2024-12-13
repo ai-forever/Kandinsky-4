@@ -285,7 +285,7 @@ create_video(
 
 Denis Dimitrov
 
-### Scientific Consultant
+### Scientific Consultants
 
 Andrey Kuznetsov, Sergey Markov
 
