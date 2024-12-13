@@ -1,6 +1,3 @@
-# Kandinsky 4.0: text-to-video, image-to-video, and video-to-audio diffusion models
-<br><br><br><br>
-
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/KANDINSKY_LOGO_1_WHITE.png">
@@ -10,19 +7,30 @@
 </div>
 
 <div align="center">
-  <a href=https://habr.com/ru/companies/sberbank/articles/866156/>Kandinsky 4.0 Post</a> | <a href=https://ai-forever.github.io/Kandinsky-4/K40/>Project Page</a> | <a href=https://huggingface.co/spaces/ai-forever/kandinsky-4-t2v-flash>Generate</a> | <a>Technical Report</a> | <a href=https://github.com/ai-forever/Kandinsky-4>GitHub</a> | <a href=https://huggingface.co/ai-forever/kandinsky-4-t2v-flash> Kandinsky 4.0 T2V Flash HuggingFace</a> | <a href=https://huggingface.co/ai-forever/kandinsky-4-v2a> Kandinsky 4.0 V2A HuggingFace</a>
+  <a href="https://habr.com/ru/companies/sberbank/articles/866156">Article</a> | <a href=https://ai-forever.github.io/Kandinsky-4/K40/>Project Page</a> | <a href=https://huggingface.co/spaces/ai-forever/kandinsky-4-t2v-flash>Generate🤗</a> | Technical Report (soon) | <a href=https://huggingface.co/ai-forever/kandinsky-4-t2v-flash> T2V Flash🤗</a> | <a href=https://huggingface.co/ai-forever/kandinsky-4-v2a> V2A🤗</a>
 </div>
 
-<div align="center">
-  This repository is the official implementation of Kandinsky 4.0 T2V Flash and Kandinsky 4.0 V2A.
-</div>
+<h1>Kandinsky 4.0: A family of diffusion models for Video generation</h1>
 
-<br><br><br><br>
+In this repository, we provide a family of diffusion models to generate a video given a textual prompt or an image (<em>Coming Soon</em>), a distilled model for a faster generation and a video to audio generation model.
+
+## Project Updates
+
+- 🔥 **Source**: ```2024/12/13```: We have open-sourced `Kandinsky 4.0 T2V Flash` a distilled version of `Kandinsky 4.0 T2V` text-to-video generation model.
+- 🔥 **Source**: ```2024/12/13```: We have open-sourced `Kandinsky 4.0 V2A` a video-to-audio generation model. 
+
+## Table of contents
+<ul>
+  <li><a href="#kandinsky-40-t2v">Kandinsky 4.0 T2V</a>: A text-to-video model - <em>Coming Soon</em></li>
+  <li><a href="#kandinsky-40-t2v-flash">Kandinsky 4.0 T2V Flash</a>: A distilled version of Kandinsky 4.0 T2V 480p.</li>
+  <li><a href="#kandinsky-40-i2v-image-to-video">Kandinsky 4.0 I2V</a>: An image-to-video model - <em>Coming Soon</em> </li>
+  <li><a href="#kandinsky-40-v2a">Kandinsky 4.0 V2A</a>: A video-to-audio model.</li>
+</ul>
 
 
-## Kandinsky 4.0 T2V (text-to-video)
+## Kandinsky 4.0 T2V
 
-**Open source: SOON** 🤗
+<em>Coming Soon</em> 🤗
 
 ### Examples:
 
@@ -85,48 +93,16 @@
 
 </table>
 
-## Kandinsky 4.0 T2V Flash (distilled version of Kandinsky 4.0 T2V 480p)
+## Kandinsky 4.0 T2V Flash
 
-### Examples:
+Kandinsky 4.0 is a text-to-video generation model leveraging latent diffusion to produce videos in both 480p and HD resolutions. We also introduce Kandinsky 4 Flash, a distilled version of the model capable of generating **12-second 480p videos** in just **11 seconds** using a **single** NVIDIA H100 GPU. The pipeline integrates a 3D causal [CogVideoX](https://arxiv.org/pdf/2408.06072) VAE, the [T5-V1.1-XXL](https://huggingface.co/google/t5-v1_1-xxl) text embedder, and our custom-trained MMDiT-like transformer model. Kandinsky 4.0 Flash was trained using the Latent Adversarial Diffusion Distillation (LADD) approach, proposed for distilling image generation models and first described in the [article](https://arxiv.org/pdf/2403.12015) from Stability AI.
 
-<table border="0" style="width: 200; text-align: left; margin-top: 20px;">
-  <tr>
-      <td>
-          <video src="https://github.com/user-attachments/assets/c52f5734-79de-4d09-b738-0ad09ffda25f" width=200 controls autoplay loop></video>
-      </td>
-      <td>
-          <video src="https://github.com/user-attachments/assets/a0218156-3bc2-4464-8c06-84aac8c75927" width=200 controls autoplay loop></video>
-      </td>
-      <td>
-          <video src="https://github.com/user-attachments/assets/91c6ee64-84a7-45a4-9e08-7eceacb8518a" width=200 controls autoplay loop></video>
-      </td>
-  </tr>
+The following scheme describes the overall generation pipeline:
+<div align="center">
+  <img src="assets/pipeline.png" height=500>
+</div>
 
-</table>
-
-### Description:
-
-Kandinsky 4.0 is a text-to-video generation model based on latent diffusion for 480p and HD resolutions. Here we present distiled version of this model **Kandisnly 4 flash**, that can generate **12 second videos** in 480p resolution in **11 seconds** on a single NVIDIA H100 gpu. The pipeline consist of 3D causal [CogVideoX](https://arxiv.org/pdf/2408.06072) VAE, text embedder [T5-V1.1-XXL](https://huggingface.co/google/t5-v1_1-xxl) and our trained MMDiT-like transformer model.
-
-<img src="assets/pipeline.png" height=500>
-
-A serious problem for all diffusion models, and especially video generation models, is the generation speed. To solve this problem, we used the Latent Adversarial Diffusion Distillation (LADD) approach, proposed for distilling image generation models and first described in the [article](https://arxiv.org/pdf/2403.12015) from Stability AI and tested by us when training the [Kandinsky 3.1](https://github.com/ai-forever/Kandinsky-3) image generation model. The distillation pipeline itself involves additional training of the diffusion model in the GAN pipeline, i.e. joint training of the diffusion generator with the discriminator.
-
-<img src="assets/LADD.png">
-
-
-### Architecture
-
-For training Kandinsky 4 Flash we used the following architecture of diffusion transformer, based on MMDiT proposed in [Stable Diffusion 3](https://arxiv.org/pdf/2403.03206).
-
-<img src="assets/MMDiT1.png" width="50%"> <img src="assets/MMDiT_block1.png" width="30%">
-
-For training flash version we used the following architecture of discriminator. Discriminator head structure resembles half of an MMDiT block.
-
-<img src="assets/discriminator.png" width="50%"> <img src="assets/discriminator_head.png" width="30%">
-
-
-### How to use Kandinsky 4.0 T2V Flash:
+### Inference
 
 ```python
 import torch
@@ -153,28 +129,20 @@ images = pipe(
 Video("./test.mp4")
 ```
 
-Examples of usage and more detailed parameters description are in the [examples.ipynb](examples.ipynb) notebook.
+Please, refer to [examples.ipynb](examples.ipynb) notebook for more usage details.
 
-Make sure that you have weights folder with weights of all models.
+### Distributed Inference
 
-We also add distributed inference opportunity: [run_inference_distil.py](run_inference_distil.py)
-
-To run this examples:
+For a faster inference, we also provide the capability to perform inference in a distributed way:
 ```
-python -m torch.distributed.launch --nnodes n --nproc-per-node m run_inference_distil.py
-```
-where n is a number of nodes you have and m is a number of gpus on these nodes. The code was tested with n=1 and m=8, so this is preferable parameters.
-
-In distributed setting the DiT models are parallelized using tensor parallel on all gpus, which enables a significant speedup.
-
-To run this examples from terminal without tensor parallel:
-```
-python run_inference_distil.py
+NUMBER_OF_NODES=1
+NUMBER_OF_DEVICES_PER_NODE=8
+python -m torch.distributed.launch --nnodes $NUMBER_OF_NODES --nproc-per-node $NUMBER_OF_DEVICES_PER_NODE run_inference_distil.py
 ```
 
 ## Kandinsky 4.0 I2V (image-to-video)
 
-**Open source: SOON** 🤗
+<em>Coming Soon</em> 🤗
 
 ### Examples:
 
@@ -208,36 +176,33 @@ python run_inference_distil.py
 
 </table>
 
-## Kandinsky 4.0 V2A (video-to-audio)
-
-### Examples:
-
 <table border="0" style="width: 200; text-align: left; margin-top: 20px;">
   <tr>
       <td>
-          <video src="https://github.com/user-attachments/assets/6bb5cb9c-00b4-4d7a-9616-a1debf456e02" width=200 controls autoplay loop playsinline></video>
+          <video src="https://github.com/user-attachments/assets/c52f5734-79de-4d09-b738-0ad09ffda25f" width=200 controls autoplay loop></video>
       </td>
       <td>
-          <video src="https://github.com/user-attachments/assets/1eb223af-c743-4948-9532-9e6e097b979a" width=200 controls autoplay loop playsinline></video>
+          <video src="https://github.com/user-attachments/assets/a0218156-3bc2-4464-8c06-84aac8c75927" width=200 controls autoplay loop></video>
       </td>
       <td>
-          <video src="https://github.com/user-attachments/assets/cf22eeee-67aa-4b32-bea8-23d6954852a5" width=200 controls autoplay loop playsinline></video>
+          <video src="https://github.com/user-attachments/assets/91c6ee64-84a7-45a4-9e08-7eceacb8518a" width=200 controls autoplay loop></video>
       </td>
   </tr>
+
 </table>
 
 
-### Description:
-We also release generation pipeline able to produce audio for Kandinsky 4.0 video outputs. 
-![pipeline-audio](https://github.com/user-attachments/assets/f5d6fafb-6e0a-4362-b6e0-63c51c79bfc2)
+## Kandinsky 4.0 V2A
+
 
 Video to Audio pipeline consists of a visual encoder, a text encoder, UNet diffusion model to generate spectrogram and Griffin-lim algorithm to convert spectrogram into audio. 
-Visual and text encoders share the same multimodal visual language decoder ([cogvlm2-video-llama3-chat](link)). 
+Visual and text encoders share the same multimodal visual language decoder ([cogvlm2-video-llama3-chat](https://huggingface.co/THUDM/cogvlm2-video-llama3-chat)). 
 
-Our UNet diffusion model is a finetune of the music generation model [riffusion](https://huggingface.co/riffusion/riffusion-model-v1). We made modifications in the architecture to condition on video frames and improve the synchronization between video and audio. Also, we replace the text encoder with the decoder of [cogvlm2-video-llama3-chat](link).
+Our UNet diffusion model is a finetune of the music generation model [riffusion](https://huggingface.co/riffusion/riffusion-model-v1). We made modifications in the architecture to condition on video frames and improve the synchronization between video and audio. Also, we replace the text encoder with the decoder of [cogvlm2-video-llama3-chat](https://huggingface.co/THUDM/cogvlm2-video-llama3-chat).
 
+![pipeline-audio](https://github.com/user-attachments/assets/f5d6fafb-6e0a-4362-b6e0-63c51c79bfc2)
 
-Inference code for Video-to-Audio:
+### Inference
 
 ```python
 import torch
@@ -278,37 +243,40 @@ create_video(
 )
 ```
 
+### Examples:
+
+<table border="0" style="width: 200; text-align: left; margin-top: 20px;">
+  <tr>
+      <td>
+          <video src="https://github.com/user-attachments/assets/6bb5cb9c-00b4-4d7a-9616-a1debf456e02" width=200 controls autoplay loop playsinline></video>
+      </td>
+      <td>
+          <video src="https://github.com/user-attachments/assets/1eb223af-c743-4948-9532-9e6e097b979a" width=200 controls autoplay loop playsinline></video>
+      </td>
+      <td>
+          <video src="https://github.com/user-attachments/assets/cf22eeee-67aa-4b32-bea8-23d6954852a5" width=200 controls autoplay loop playsinline></video>
+      </td>
+  </tr>
+</table>
+
+## BibTeX
+If you use our work in your research, please cite our publication:
+```
+@article{arkhipkin2023fusionframes,
+  title     = {FusionFrames: Efficient Architectural Aspects for Text-to-Video Generation Pipeline},
+  author    = {Arkhipkin, Vladimir and Shaheen, Zein and Vasilev, Viacheslav and Dakhova, Elizaveta and Kuznetsov, Andrey and Dimitrov, Denis},
+  journal   = {arXiv preprint arXiv:2311.13073},
+  year      = {2023}, 
+}
+```
 
 # Authors
 
-### Project Leader 
-
-Denis Dimitrov
-
-### Scientific Consultants
-
-Andrey Kuznetsov, Sergey Markov
-
-### Training Pipeline & Model Pretrain & Model Distillation
-
-Vladimir Arkhipkin, Novitskiy Lev, Maria Kovaleva
-
-### Model Architecture
-
-Vladimir Arkhipkin, Maria Kovaleva, Zein Shaheen, Arsen Kuzhamuratov, Nikolay Gerasimenko, Mikhail Zhirnov, Alexandr Gambashidze, Konstantin Sobolev
-
-### Data Pipeline
-
-Ivan Kirillov, Andrei Shutkin, Kirill Chernishev, Julia Agafonova, Denis Parkhomenko
-
-### Video-to-audio model
-
-Zein Shaheen, Arseniy Shakhmatov, Denis Parkhomenko
-
-### Quality Assessment
-
-Nikolay Gerasimenko, Anna Averchenkova, Victor Panshin, Vladislav Veselov, Pavel Perminov, Vladislav Rodionov, Sergey Skachkov, Stepan Ponomarev
-
-### Other Contributors
-
-Viacheslav Vasilev, Andrei Filatov, Gregory Leleytner
+<B>Project Leader:</B> Denis Dimitrov. </br>
+<B>Scientific Advisors:</B> Andrey Kuznetsov, Sergey Markov.</br>
+<B>Training Pipeline & Model Pretrain & Model Distillation:</B> Vladimir Arkhipkin, Lev Novitskiy, Maria Kovaleva. </br>
+<B>Model Architecture:</B> Vladimir Arkhipkin, Maria Kovaleva, Zein Shaheen, Arsen Kuzhamuratov, Nikolay Gerasimenko, Mikhail Zhirnov, Alexander Gambashidze, Konstantin Sobolev.</br>
+<B>Data Pipeline:</B> Ivan Kirillov, Andrei Shutkin, Kirill Chernishev, Julia Agafonova, Elizaveta Dakhova, Denis Parkhomenko.</br>
+<B>Video-to-audio model:</B> Zein Shaheen, Arseniy Shakhmatov, Denis Parkhomenko.</br>
+<B>Quality Assessment:</B> Nikolay Gerasimenko, Anna Averchenkova, Victor Panshin, Vladislav Veselov, Pavel Perminov, Vladislav Rodionov, Sergey Skachkov, Stepan Ponomarev.</br>
+<B>Other Contributors:</B> Viacheslav Vasilev, Andrei Filatov, Gregory Leleytner.</br>
