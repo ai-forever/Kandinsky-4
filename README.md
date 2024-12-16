@@ -37,57 +37,22 @@ In this repository, we provide a family of diffusion models to generate a video 
 <table border="0" style="width: 200; text-align: left; margin-top: 20px;">
   <tr>
       <td>
-          <video src="https://github.com/user-attachments/assets/b324ee89-3deb-49e7-a506-92f67cd7dc54" width=200 controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/e7f9f0ec-5617-4428-bbc7-75880eff8ef2" width=200 controls autoplay loop></video>
       </td>
       <td>
-          <video src="https://github.com/user-attachments/assets/fc7eb771-dd5e-4a5c-815a-6657f44b8e22" width=200 controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/df3685c3-716a-4785-8224-2b213f618786" width=200 controls autoplay loop></video>
       </td>
       <td>
-          <video src="https://github.com/user-attachments/assets/300af939-7516-4521-8eeb-6a660b70fb85" width=200 controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/d963fe6b-d761-4c96-9645-5cd674ddf6f7" width=200 controls autoplay loop></video>
       </td>
       <td>
-          <video src="https://github.com/user-attachments/assets/13a64f44-8d81-4760-8a69-dcd483ee62f2" width=200 controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/ae6a84d7-d4b8-4921-a998-d21b0a748af8" width=200 controls autoplay loop></video>
       </td>
       <td>
-          <video src="https://github.com/user-attachments/assets/fe99f74d-7ea9-41e1-9bb4-45ab258eb254" width=200 controls autoplay loop></video>
-      </td>
-  </tr>
-
-</table>
-
-<table border="0" style="width: 200; text-align: left; margin-top: 20px;">
-  <tr>
-      <td>
-          <video src="https://github.com/user-attachments/assets/9bc737bc-9a58-46a1-b4d0-95df0a34ff88" width=200 controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/4cf9c7a3-e399-4ed7-ab34-071fd2bf1ec8" width=200 controls autoplay loop></video>
       </td>
       <td>
-          <video src="https://github.com/user-attachments/assets/c80362fd-e173-44c2-a774-6f36810be442" width=200 controls autoplay loop></video>
-      </td>
-  </tr>
-  <tr>
-      <td>
-          <video src="https://github.com/user-attachments/assets/98012d67-5aa3-492a-82d9-9cb72f3c3cf8" width=200 controls autoplay loop></video>
-      </td>
-      <td>
-          <video src="https://github.com/user-attachments/assets/5418ee18-fec4-4a0b-880b-86d34f350031" width=200 controls autoplay loop></video>
-      </td>
-  </tr>
-
-</table>
-
-<table border="0" style="width: 200; text-align: left; margin-top: 20px;">
-  <tr>
-      <td>
-          <video src="https://github.com/user-attachments/assets/49bfdab3-d978-4290-8b67-8dfbf32e590e" width=200 controls autoplay loop></video>
-      </td>
-      <td>
-          <video src="https://github.com/user-attachments/assets/d038e86c-0346-4f55-a19e-27e861be09d8" width=200 controls autoplay loop></video>
-      </td>
-      <td>
-          <video src="https://github.com/user-attachments/assets/ae06bd3f-c83f-4ec8-bf46-bf5cb1542db0" width=200 controls autoplay loop></video>
-      </td>
-      <td>
-          <video src="https://github.com/user-attachments/assets/f42b1635-55c7-4b0d-85b7-ed674e5c2e50" width=200 controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/71841ba0-c84a-4c3f-ac2f-657446a5dc0a" width=200 controls autoplay loop></video>
       </td>
   </tr>
 
@@ -101,6 +66,21 @@ The following scheme describes the overall generation pipeline:
 <div align="center">
   <img src="assets/pipeline.png" height=500>
 </div>
+
+<table border="0" style="width: 200; text-align: left; margin-top: 20px;">
+  <tr>
+      <td>
+          <video src="https://github.com/user-attachments/assets/c52f5734-79de-4d09-b738-0ad09ffda25f" width=200 controls autoplay loop></video>
+      </td>
+      <td>
+          <video src="https://github.com/user-attachments/assets/a0218156-3bc2-4464-8c06-84aac8c75927" width=200 controls autoplay loop></video>
+      </td>
+      <td>
+          <video src="https://github.com/user-attachments/assets/91c6ee64-84a7-45a4-9e08-7eceacb8518a" width=200 controls autoplay loop></video>
+      </td>
+  </tr>
+
+</table>
 
 ### Inference
 
@@ -176,21 +156,66 @@ python -m torch.distributed.launch --nnodes $NUMBER_OF_NODES --nproc-per-node $N
 
 </table>
 
+### Examples T2I + I2V:
+
 <table border="0" style="width: 200; text-align: left; margin-top: 20px;">
   <tr>
       <td>
-          <video src="https://github.com/user-attachments/assets/c52f5734-79de-4d09-b738-0ad09ffda25f" width=200 controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/b324ee89-3deb-49e7-a506-92f67cd7dc54" width=200 controls autoplay loop></video>
       </td>
       <td>
-          <video src="https://github.com/user-attachments/assets/a0218156-3bc2-4464-8c06-84aac8c75927" width=200 controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/fc7eb771-dd5e-4a5c-815a-6657f44b8e22" width=200 controls autoplay loop></video>
       </td>
       <td>
-          <video src="https://github.com/user-attachments/assets/91c6ee64-84a7-45a4-9e08-7eceacb8518a" width=200 controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/300af939-7516-4521-8eeb-6a660b70fb85" width=200 controls autoplay loop></video>
+      </td>
+      <td>
+          <video src="https://github.com/user-attachments/assets/13a64f44-8d81-4760-8a69-dcd483ee62f2" width=200 controls autoplay loop></video>
+      </td>
+      <td>
+          <video src="https://github.com/user-attachments/assets/fe99f74d-7ea9-41e1-9bb4-45ab258eb254" width=200 controls autoplay loop></video>
       </td>
   </tr>
 
 </table>
 
+<table border="0" style="width: 200; text-align: left; margin-top: 20px;">
+  <tr>
+      <td>
+          <video src="https://github.com/user-attachments/assets/9bc737bc-9a58-46a1-b4d0-95df0a34ff88" width=200 controls autoplay loop></video>
+      </td>
+      <td>
+          <video src="https://github.com/user-attachments/assets/c80362fd-e173-44c2-a774-6f36810be442" width=200 controls autoplay loop></video>
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <video src="https://github.com/user-attachments/assets/98012d67-5aa3-492a-82d9-9cb72f3c3cf8" width=200 controls autoplay loop></video>
+      </td>
+      <td>
+          <video src="https://github.com/user-attachments/assets/5418ee18-fec4-4a0b-880b-86d34f350031" width=200 controls autoplay loop></video>
+      </td>
+  </tr>
+
+</table>
+
+<table border="0" style="width: 200; text-align: left; margin-top: 20px;">
+  <tr>
+      <td>
+          <video src="https://github.com/user-attachments/assets/49bfdab3-d978-4290-8b67-8dfbf32e590e" width=200 controls autoplay loop></video>
+      </td>
+      <td>
+          <video src="https://github.com/user-attachments/assets/d038e86c-0346-4f55-a19e-27e861be09d8" width=200 controls autoplay loop></video>
+      </td>
+      <td>
+          <video src="https://github.com/user-attachments/assets/ae06bd3f-c83f-4ec8-bf46-bf5cb1542db0" width=200 controls autoplay loop></video>
+      </td>
+      <td>
+          <video src="https://github.com/user-attachments/assets/f42b1635-55c7-4b0d-85b7-ed674e5c2e50" width=200 controls autoplay loop></video>
+      </td>
+  </tr>
+
+</table>
 
 ## Kandinsky 4.0 V2A
 
