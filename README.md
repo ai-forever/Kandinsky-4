@@ -34,6 +34,29 @@ In this repository, we provide a family of diffusion models to generate a video 
 
 ### Examples:
 
+<table border="0" style="width: 200; text-align: left; margin-top: 20px;">
+  <tr>
+      <td>
+          <video src="https://github.com/user-attachments/assets/e7f9f0ec-5617-4428-bbc7-75880eff8ef2" width=200 controls autoplay loop></video>
+      </td>
+      <td>
+          <video src="https://github.com/user-attachments/assets/df3685c3-716a-4785-8224-2b213f618786" width=200 controls autoplay loop></video>
+      </td>
+      <td>
+          <video src="https://github.com/user-attachments/assets/d963fe6b-d761-4c96-9645-5cd674ddf6f7" width=200 controls autoplay loop></video>
+      </td>
+      <td>
+          <video src="https://github.com/user-attachments/assets/ae6a84d7-d4b8-4921-a998-d21b0a748af8" width=200 controls autoplay loop></video>
+      </td>
+      <td>
+          <video src="https://github.com/user-attachments/assets/4cf9c7a3-e399-4ed7-ab34-071fd2bf1ec8" width=200 controls autoplay loop></video>
+      </td>
+      <td>
+          <video src="https://github.com/user-attachments/assets/71841ba0-c84a-4c3f-ac2f-657446a5dc0a" width=200 controls autoplay loop></video>
+      </td>
+  </tr>
+
+</table>
 
 ## Kandinsky 4.0 T2V Flash
 
