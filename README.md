@@ -292,7 +292,7 @@ create_video(
 <B>Scientific Advisors:</B> Andrey Kuznetsov, Sergey Markov.</br>
 <B>Training Pipeline & Model Pretrain & Model Distillation:</B> Vladimir Arkhipkin, Lev Novitskiy, Maria Kovaleva. </br>
 <B>Model Architecture:</B> Vladimir Arkhipkin, Maria Kovaleva, Zein Shaheen, Arsen Kuzhamuratov, Nikolay Gerasimenko, Mikhail Zhirnov, Alexander Gambashidze, Konstantin Sobolev.</br>
-<B>Data Pipeline:</B> Ivan Kirillov, Andrei Shutkin, Kirill Chernishev, Julia Agafonova, Denis Parkhomenko.</br>
+<B>Data Pipeline:</B> Ivan Kirillov, Andrei Shutkin, Kirill Chernishev, Julia Agafonova, Elizaveta Dakhova, Denis Parkhomenko.</br>
 <B>Video-to-audio model:</B> Zein Shaheen, Arseniy Shakhmatov, Denis Parkhomenko.</br>
 <B>Quality Assessment:</B> Nikolay Gerasimenko, Anna Averchenkova, Victor Panshin, Vladislav Veselov, Pavel Perminov, Vladislav Rodionov, Sergey Skachkov, Stepan Ponomarev.</br>
 <B>Other Contributors:</B> Viacheslav Vasilev, Andrei Filatov, Gregory Leleytner.</br>
